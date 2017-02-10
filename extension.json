@@ -1,0 +1,81 @@
+{
+	"name": "BlueSpiceMultiUpload",
+    "version": "2.27.0",
+    "author": [
+        "[http://www.hallowelt.com Hallo Welt! GmbH]"
+    ],
+    "url": "http://bluespice.com",
+    "descriptionmsg": "bs-multiupload-desc",
+    "type": "bluespice",
+	"bsgExtensions": {
+		"BlueSpiceMultiUpload": {
+			"className": "BlueSpiceMultiUpload",
+			"extPath": "/BlueSpiceMultiUpload"
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceMultiUpload": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"BlueSpiceMultiUpload": "BlueSpiceMultiUpload.class.php",
+		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "BlueSpiceMultiUploadHooks::onBeforePageDisplay"
+	},
+	"ResourceModules": {
+		"ext.bluespice.multiUpload": {
+			"scripts": [
+				"ext.bluespice.multiUpload.js"
+			],
+			"dependencies": [
+				"ext.bluespice.uploader.bootstrap"
+			]
+		},
+		"ext.bluespice.uploader.bootstrap": {
+			"scripts": [
+				"ext.bluespice.uploader.bootstrap.js"
+			],
+			"position": "top"
+		},
+		"ext.bluespice.upload": {
+			"scripts": [
+				"ext.bluespice.upload.js",
+				"lib/plupload/moxie.js",
+				"lib/plupload/plupload.dev.js"
+			],
+			"messages": [
+				"bs-uploader-mime-images-label",
+				"bs-uploader-mime-files-label"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.extjs.upload": {
+			"scripts": [
+				"ext.bluespice.extjs.upload.js"
+			],
+			"messages": [
+				"bs-upload-multiuploaddialogtitle",
+				"bs-deferred-action-apiupload-description",
+				"bs-upload-descfilelabel",
+				"bs-upload-license",
+				"bs-upload-uploadwatchthislabel",
+				"bs-upload-uploadignorewarningslabel",
+				"bs-upload-categories",
+				"bs-upload-details"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceMultiUpload/resources"
+	},
+	"manifest_version": 1
+}
