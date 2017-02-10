@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-multiupload-desc": "Ermöglicht das Hochladen von mehreren Dateien",
+	"bs-upload-multiuploaddialogtitle": "Dateien hochladen",
+	"bs-deferred-action-apiupload-description": "Hochladen von \"$1\" nach \"$2\"",
+	"bs-uploader-mime-images-label": "Bilder",
+	"bs-uploader-mime-files-label": "Dateien"
+}

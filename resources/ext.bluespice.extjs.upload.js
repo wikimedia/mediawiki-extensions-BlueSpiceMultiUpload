@@ -1,0 +1,3 @@
+Ext.Loader.setPath( 'BS.dialog.MultiUpload', bs.em.paths.get( 'BlueSpiceMultiUpload' ) + '/resources/BS/dialog/MultiUpload.js' );
+Ext.Loader.setPath( 'BS.form.UploadDetailsFieldSet', bs.em.paths.get( 'BlueSpiceMultiUpload' ) + '/resources/BS/form/UploadDetailsFieldSet.js' );
+Ext.Loader.setPath( 'BS.action.APIUpload', bs.em.paths.get( 'BlueSpiceMultiUpload' ) + '/resources/BS/action/APIUpload.js' );
