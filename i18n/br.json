@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"bs-multiupload-desc": "Pourchas a ra enporzhiadennoù a-forniadoù evit restroù",
+	"bs-upload-multiuploaddialogtitle": "Enporzhiañ restroù",
+	"bs-deferred-action-apiupload-description": "Enporzhiañ \"$1\" diwar \"$2\"",
+	"bs-uploader-mime-images-label": "Skeudennoù",
+	"bs-uploader-mime-files-label": "Restroù"
+}

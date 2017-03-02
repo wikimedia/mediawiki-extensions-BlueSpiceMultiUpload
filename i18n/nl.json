@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"bs-multiupload-desc": "Biedt de mogelijkheid om meerdere bestanden tegelijk te uploaden",
+	"bs-upload-multiuploaddialogtitle": "Bestanden uploaden",
+	"bs-uploader-mime-images-label": "Afbeeldingen",
+	"bs-uploader-mime-files-label": "Bestanden"
+}
