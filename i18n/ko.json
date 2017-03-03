@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "파일 업로드",
+	"bs-uploader-mime-images-label": "그림",
+	"bs-uploader-mime-files-label": "파일"
+}

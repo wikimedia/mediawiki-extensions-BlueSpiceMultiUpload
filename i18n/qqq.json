@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Vogel <vogel@hallowelt.com>"
+			"Robert Vogel <vogel@hallowelt.com>",
+			"Robby"
 		]
 	},
 	"bs-multiupload-desc": "Description of this extension",
 	"bs-upload-multiuploaddialogtitle": "Title of multi-upload diaplog window",
 	"bs-deferred-action-apiupload-description": "Description of an action that uploads a file to the wiki.\n\nParameters:\n* $1 - The source file name\n* $2 - The target file name",
-	"bs-uploader-mime-images-label": "Label used in a drop down that allows filtering for certain file types. Filters for image file types.",
-	"bs-uploader-mime-files-label": "Label used in a drop down that allows filtering for certain file types. Filters for all but image file types."
+	"bs-uploader-mime-images-label": "Label used in a drop down that allows filtering for certain file types. Filters for image file types.\n{{Identical|Image}}",
+	"bs-uploader-mime-files-label": "Label used in a drop down that allows filtering for certain file types. Filters for all but image file types.\n{{Identical|File}}"
 }
