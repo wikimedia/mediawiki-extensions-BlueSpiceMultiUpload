@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "Качване на файлове",
+	"bs-uploader-mime-images-label": "Изображения",
+	"bs-uploader-mime-files-label": "Файлове"
+}
