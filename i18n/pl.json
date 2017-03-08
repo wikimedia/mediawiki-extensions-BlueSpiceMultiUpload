@@ -4,6 +4,7 @@
 			"Chrumps"
 		]
 	},
+	"bs-upload-multiuploaddialogtitle": "Przesyłanie plików",
 	"bs-uploader-mime-images-label": "Obrazy",
 	"bs-uploader-mime-files-label": "Pliki"
 }
