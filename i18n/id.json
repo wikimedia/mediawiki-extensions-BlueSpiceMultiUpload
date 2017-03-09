@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hidayatsrf"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "Unggah berkas",
+	"bs-uploader-mime-images-label": "Gambar",
+	"bs-uploader-mime-files-label": "Berkas"
+}
