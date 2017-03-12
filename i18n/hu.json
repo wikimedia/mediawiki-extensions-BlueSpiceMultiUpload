@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"BanKris"
+		]
+	},
+	"bs-uploader-mime-images-label": "Képek",
+	"bs-uploader-mime-files-label": "Fájlok"
+}
