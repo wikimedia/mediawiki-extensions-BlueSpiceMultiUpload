@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "העלאת קבצים",
+	"bs-uploader-mime-images-label": "תמונות",
+	"bs-uploader-mime-files-label": "קבצים"
+}
