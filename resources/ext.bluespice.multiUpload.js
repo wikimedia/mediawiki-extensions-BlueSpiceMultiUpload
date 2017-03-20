@@ -30,7 +30,7 @@ $(function(){
 	}
 
 	//Add same behavior to links in BlueSpiceSkin/LeftNavigation
-	//that link to Special:Upload. Those links my be user provided
+	//that link to Special:Upload. Those links may be user provided
 	//so unforntunately we need to analyze the actual URL instead
 	//of using IDs or classes to identify the elements
 	mw.loader.using( 'mediawiki.Title' ).done(function(){

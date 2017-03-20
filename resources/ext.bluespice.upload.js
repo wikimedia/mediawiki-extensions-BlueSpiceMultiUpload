@@ -18,7 +18,6 @@
 					//Gerneral API
 					action: 'upload',
 					format: 'json',
-					token: mw.user.tokens.get( 'editToken' ),
 
 					//Upload API
 					comment: '',
