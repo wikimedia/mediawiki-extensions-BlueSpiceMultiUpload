@@ -5,6 +5,7 @@
 		]
 	},
 	"bs-multiupload-desc": "Provides batch uploading of files",
+	"bs-upload-multiupload-link-label": "Upload files",
 	"bs-upload-multiuploaddialogtitle": "Upload files",
 	"bs-deferred-action-apiupload-description": "Upload of \"$1\" to \"$2\"",
 	"bs-uploader-mime-images-label": "Images",
