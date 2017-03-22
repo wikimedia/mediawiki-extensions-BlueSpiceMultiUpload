@@ -36,10 +36,16 @@ Ext.define('BS.action.APIUpload', {
 	},
 
 	execute: function() {
-		//If the process is not started yet, start it. Should only appear once
-		if( this.uploader.state === plupload.STOPPED ) {
-			this.uploader.start();
-		}
+		var me = this;
+
+		var api = new mw.Api();
+		api.getToken( 'csrf' ).then( function ( token ) {
+			me.uploadApiMeta.token = token;
+			//If the process is not started yet, start it. Should only appear once
+			if( me.uploader.state === plupload.STOPPED ) {
+				me.uploader.start();
+			}
+		});
 
 		/*
 		 * As the whole upload is handled by "this.uploader"
@@ -52,16 +58,14 @@ Ext.define('BS.action.APIUpload', {
 
 	onFileUploaded: function( upldr, file, xhr ) {
 		if( file.id === this.file.id ) {
-			var response = Ext.decode(xhr.response); //MW API response object
+			var response = Ext.decode( xhr.response ); //MW API response object
 			if( response.error ) {
 				this.actionStatus = BS.action.Base.STATUS_ERROR;
 				this.dfd.reject( this, response.error );
-				//console.log(response.error);
 			}
 			else {
 				this.actionStatus = BS.action.Base.STATUS_DONE;
 				this.dfd.resolve( this, response.upload.result );
-				//console.log(response.upload.result);
 			}
 		}
 	},
