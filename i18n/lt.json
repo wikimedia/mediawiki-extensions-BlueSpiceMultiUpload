@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "Įkelti failus",
+	"bs-uploader-mime-images-label": "Paveikslėliai",
+	"bs-uploader-mime-files-label": "Failai"
+}
