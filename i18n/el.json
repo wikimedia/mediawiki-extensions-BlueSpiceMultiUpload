@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"GR"
+		]
+	},
+	"bs-upload-multiuploaddialogtitle": "Ανέβασμα αρχείων",
+	"bs-uploader-mime-images-label": "Εικόνες",
+	"bs-uploader-mime-files-label": "Αρχεία"
+}
