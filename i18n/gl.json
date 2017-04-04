@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
+	"bs-multiupload-desc": "Ofrece a suba de ficheiros en lotes",
 	"bs-upload-multiuploaddialogtitle": "Subir ficheiros",
+	"bs-deferred-action-apiupload-description": "Suba de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Imaxes",
 	"bs-uploader-mime-files-label": "Ficheiros"
 }
