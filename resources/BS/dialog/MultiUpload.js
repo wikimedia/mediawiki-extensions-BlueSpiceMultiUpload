@@ -57,7 +57,9 @@ Ext.define( 'BS.dialog.MultiUpload', {
 			actions.push(new BS.action.APIUpload( cfg ));
 		}
 
-		var diag =  new BS.dialog.BatchActions();
+		var diag =  new BS.dialog.BatchActions({
+			maxWidth: Ext.getBody().getViewSize().width //Mobile integration
+		});
 		diag.setData( actions );
 		diag.show();
 		diag.startProcessing();
