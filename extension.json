@@ -1,12 +1,12 @@
 {
 	"name": "BlueSpiceMultiUpload",
-    "version": "2.27.0",
-    "author": [
-        "[http://www.hallowelt.com Hallo Welt! GmbH]"
-    ],
-    "url": "http://bluespice.com",
-    "descriptionmsg": "bs-multiupload-desc",
-    "type": "bluespice",
+	"version": "2.27.0",
+	"author": [
+		"[http://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "http://bluespice.com",
+	"descriptionmsg": "bs-multiupload-desc",
+	"type": "bluespice",
 	"bsgExtensions": {
 		"BlueSpiceMultiUpload": {
 			"className": "BlueSpiceMultiUpload",
