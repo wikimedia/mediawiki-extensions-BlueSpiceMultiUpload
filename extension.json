@@ -23,7 +23,9 @@
 		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "BlueSpiceMultiUploadHooks::onBeforePageDisplay"
+		"BeforePageDisplay": "BlueSpiceMultiUploadHooks::onBeforePageDisplay",
+		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
+		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu"
 	},
 	"ResourceModules": {
 		"ext.bluespice.multiUpload": {
@@ -32,11 +34,20 @@
 			],
 			"dependencies": [
 				"ext.bluespice.uploader.bootstrap"
+			],
+			"targets": [
+				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.uploader.bootstrap": {
 			"scripts": [
 				"ext.bluespice.uploader.bootstrap.js"
+			],
+			"targets": [
+				"desktop", "mobile"
+			],
+			"dependencies": [
+				"ext.bluespice"
 			],
 			"position": "top"
 		},
@@ -52,6 +63,9 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
+			],
+			"targets": [
+				"desktop", "mobile"
 			]
 		},
 		"ext.bluespice.extjs.upload": {
@@ -70,6 +84,29 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
+			],
+			"targets": [
+				"mobile", "desktop"
+			]
+		},
+		"ext.bluespice.multiUpload.MobileFrontend": {
+			"scripts": [
+				"ext.bluespice.multiUpload.MobileFrontend.js"
+			],
+			"dependencies": [
+				"ext.bluespice.upload",
+				"ext.bluespice.uploader.bootstrap"
+			],
+			"targets": [
+				"mobile", "desktop"
+			]
+		},
+		"ext.bluespice.multiUpload.MobileFrontend.styles": {
+			"styles": [
+				"ext.bluespice.multiUpload.MobileFrontend.less"
+			],
+			"targets": [
+				"mobile", "desktop"
 			]
 		}
 	},
