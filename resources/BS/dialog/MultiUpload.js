@@ -4,6 +4,8 @@ Ext.define( 'BS.dialog.MultiUpload', {
 
 	title: mw.message('bs-upload-multiuploaddialogtitle').plain(),
 
+	maxWidth: Ext.getBody().getViewSize().width,
+
 	uploader: null, //pluploader.Upload
 	files: [],
 

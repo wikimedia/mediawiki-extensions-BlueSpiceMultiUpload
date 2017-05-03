@@ -6,6 +6,7 @@
 		]
 	},
 	"bs-multiupload-desc": "Ermöglicht das Hochladen von mehreren Dateien",
+	"bs-upload-multiupload-link-label": "Dateien hochladen",
 	"bs-upload-multiuploaddialogtitle": "Dateien hochladen",
 	"bs-deferred-action-apiupload-description": "Hochladen von „$1“ nach „$2“",
 	"bs-uploader-mime-images-label": "Bilder",
