@@ -5,6 +5,7 @@
 		]
 	},
 	"bs-multiupload-desc": "提供批量上传文件",
+	"bs-upload-multiupload-link-label": "上传文件",
 	"bs-upload-multiuploaddialogtitle": "上传文件",
 	"bs-deferred-action-apiupload-description": "上传“$1”至“$2”",
 	"bs-uploader-mime-images-label": "图片",

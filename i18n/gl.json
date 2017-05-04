@@ -6,6 +6,7 @@
 		]
 	},
 	"bs-multiupload-desc": "Ofrece a suba de ficheiros en lotes",
+	"bs-upload-multiupload-link-label": "Subir ficheiros",
 	"bs-upload-multiuploaddialogtitle": "Subir ficheiros",
 	"bs-deferred-action-apiupload-description": "Suba de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Imaxes",

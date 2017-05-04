@@ -4,6 +4,7 @@
 			"WikiPhoenix"
 		]
 	},
+	"bs-upload-multiupload-link-label": "Ladda upp filer",
 	"bs-upload-multiuploaddialogtitle": "Ladda upp filer",
 	"bs-deferred-action-apiupload-description": "Uppladdning av \"$1\" till \"$2\"",
 	"bs-uploader-mime-images-label": "Bilder",
