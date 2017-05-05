@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Okras"
 		]
 	},
 	"bs-multiupload-desc": "Обеспечивает пакетную загрузку файлов",
+	"bs-upload-multiupload-link-label": "Загрузить файлы",
 	"bs-upload-multiuploaddialogtitle": "Загрузить файлы",
 	"bs-uploader-mime-images-label": "Изображения",
 	"bs-uploader-mime-files-label": "Файлы"

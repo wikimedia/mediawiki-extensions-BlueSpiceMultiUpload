@@ -5,6 +5,7 @@
 		]
 	},
 	"bs-multiupload-desc": "Fournit le téléchargement par lot des fichiers",
+	"bs-upload-multiupload-link-label": "Télécharger les fichiers",
 	"bs-upload-multiuploaddialogtitle": "Télécharger des fichiers",
 	"bs-deferred-action-apiupload-description": "Téléchargement de « $1 » vers « $2 »",
 	"bs-uploader-mime-images-label": "Images",
