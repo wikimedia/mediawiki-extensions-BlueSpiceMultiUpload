@@ -5,6 +5,7 @@
 		]
 	},
 	"bs-multiupload-desc": "Осигурява групово качване на файлове",
+	"bs-upload-multiupload-link-label": "Качване на файлове",
 	"bs-upload-multiuploaddialogtitle": "Качване на файлове",
 	"bs-deferred-action-apiupload-description": "Качване на „$1“ като „$2“",
 	"bs-uploader-mime-images-label": "Изображения",
