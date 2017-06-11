@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nehirowisiw"
+			"Nehirowisiw",
+			"Benoit Rochon"
 		]
 	},
-	"bs-upload-multiupload-link-label": "E natcipitcikateki kinokewoca"
+	"bs-upload-multiupload-link-label": "E natcipitcikateki kinokewoca",
+	"bs-upload-multiuploaddialogtitle": "Matceticiha masinahikan"
 }
