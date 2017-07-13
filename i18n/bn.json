@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"bs-multiupload-desc": "গণভাবে ফাইল আপলোড করা প্রদান করে",
+	"bs-upload-multiupload-link-label": "ফাইল আপলোড করুন",
+	"bs-upload-multiuploaddialogtitle": "ফাইল আপলোড করুন",
+	"bs-deferred-action-apiupload-description": "\"$2\"-এ \"$1\"-এর আপলোড",
+	"bs-uploader-mime-images-label": "চিত্র",
+	"bs-uploader-mime-files-label": "ফাইল"
+}

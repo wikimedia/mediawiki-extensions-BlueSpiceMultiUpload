@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BanKris",
+			"Urbalazs"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Fájlok feltöltése",
+	"bs-uploader-mime-images-label": "Képek",
+	"bs-uploader-mime-files-label": "Fájlok"
+}

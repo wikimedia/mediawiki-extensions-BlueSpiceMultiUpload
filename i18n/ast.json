@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bs-multiupload-desc": "Ufre la xubida de ficheros en llotes",
+	"bs-upload-multiupload-link-label": "Xubir ficheros",
+	"bs-upload-multiuploaddialogtitle": "Xubir ficheros",
+	"bs-deferred-action-apiupload-description": "Xubida de «$1» a «$2»",
+	"bs-uploader-mime-images-label": "Imáxenes",
+	"bs-uploader-mime-files-label": "Ficheros"
+}

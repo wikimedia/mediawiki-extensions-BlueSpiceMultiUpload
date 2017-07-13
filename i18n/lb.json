@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Fichieren eroplueden",
+	"bs-upload-multiuploaddialogtitle": "Fichieren eroplueden",
+	"bs-deferred-action-apiupload-description": "Eropluede vu(n) \"$1\" op \"$2\"",
+	"bs-uploader-mime-images-label": "Biller",
+	"bs-uploader-mime-files-label": "Fichieren"
+}

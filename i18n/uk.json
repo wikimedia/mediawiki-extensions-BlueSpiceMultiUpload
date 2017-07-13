@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-multiupload-desc": "Забезпечує можливість пакетного завантаження файлів",
+	"bs-upload-multiupload-link-label": "Завантажити файли",
+	"bs-upload-multiuploaddialogtitle": "Завантажити файли",
+	"bs-deferred-action-apiupload-description": "Завантаження «$1» до «$2»",
+	"bs-uploader-mime-images-label": "Зображення",
+	"bs-uploader-mime-files-label": "Файли"
+}

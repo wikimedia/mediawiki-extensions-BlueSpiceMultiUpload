@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"bs-multiupload-desc": "Ofrece subida de archivos en lotes",
+	"bs-upload-multiupload-link-label": "Subir archivos",
+	"bs-upload-multiuploaddialogtitle": "Subir archivos",
+	"bs-deferred-action-apiupload-description": "Subida de \"$1\" a \"$2\"",
+	"bs-uploader-mime-images-label": "Imágenes",
+	"bs-uploader-mime-files-label": "Archivos"
+}
