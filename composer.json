@@ -1,4 +1,11 @@
 {
+	"name": "mediawiki/blue-spice-multi-upload",
+	"type": "mediawiki-extension",
+	"description": "Provides batch uploading of files",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "0.9.2",
 		"jakub-onderka/php-console-highlighter": "0.3.2"
