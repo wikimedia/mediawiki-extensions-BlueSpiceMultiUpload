@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"bs-multiupload-desc": "ファイルの一括アップロードを可能にする",
+	"bs-upload-multiupload-link-label": "ファイルをアップロード",
+	"bs-upload-multiuploaddialogtitle": "ファイルをアップロード",
+	"bs-deferred-action-apiupload-description": "「$1」を「$2」にアップロードします",
+	"bs-uploader-mime-images-label": "画像",
+	"bs-uploader-mime-files-label": "ファイル"
+}
