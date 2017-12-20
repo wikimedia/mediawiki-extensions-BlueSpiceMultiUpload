@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-multiupload-desc": "Tilbyr partiopplasting av filer",
+	"bs-upload-multiupload-link-label": "Last opp filer",
+	"bs-upload-multiuploaddialogtitle": "Last opp filer",
+	"bs-deferred-action-apiupload-description": "Opplasting av «$1» til «$2»",
+	"bs-uploader-mime-images-label": "Bilder",
+	"bs-uploader-mime-files-label": "Filer"
+}
