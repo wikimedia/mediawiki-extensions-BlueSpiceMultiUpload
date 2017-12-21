@@ -9,5 +9,6 @@
 	"bs-upload-multiuploaddialogtitle": "Upload files",
 	"bs-deferred-action-apiupload-description": "Upload of \"$1\" to \"$2\"",
 	"bs-uploader-mime-images-label": "Images",
-	"bs-uploader-mime-files-label": "Files"
+	"bs-uploader-mime-files-label": "Files",
+	"bs-uploader-drop-or-click": "Drag & drop file here or click to select file for upload"
 }
