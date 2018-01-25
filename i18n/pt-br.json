@@ -9,5 +9,6 @@
 	"bs-upload-multiuploaddialogtitle": "Enviar arquivos",
 	"bs-deferred-action-apiupload-description": "Carregamento de \"$1\" para \"$2\"",
 	"bs-uploader-mime-images-label": "Imagens",
-	"bs-uploader-mime-files-label": "Arquivos"
+	"bs-uploader-mime-files-label": "Arquivos",
+	"bs-uploader-drop-or-click": "Arraste e solte o arquivo aqui ou clique para selecionar o arquivo para carregar"
 }

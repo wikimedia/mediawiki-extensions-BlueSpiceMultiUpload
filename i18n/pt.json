@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Athena in Wonderland"
 		]
 	},
 	"bs-multiupload-desc": "Possibilita o carregamento de ficheiros em massa",
@@ -9,5 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "Carregar ficheiros",
 	"bs-deferred-action-apiupload-description": "Carregamento de \"$1\" para \"$2\"",
 	"bs-uploader-mime-images-label": "Imagens",
-	"bs-uploader-mime-files-label": "Ficheiros"
+	"bs-uploader-mime-files-label": "Ficheiros",
+	"bs-uploader-drop-or-click": "Arraste e solte o ficheiro aqui ou clique para selecionar o ficheiro para carregar"
 }
