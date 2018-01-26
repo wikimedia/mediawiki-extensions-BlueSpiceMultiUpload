@@ -9,5 +9,6 @@
 	"bs-upload-multiuploaddialogtitle": "上传文件",
 	"bs-deferred-action-apiupload-description": "上传“$1”至“$2”",
 	"bs-uploader-mime-images-label": "图片",
-	"bs-uploader-mime-files-label": "文件"
+	"bs-uploader-mime-files-label": "文件",
+	"bs-uploader-drop-or-click": "拖放文件至此，或点击选择文件上传"
 }

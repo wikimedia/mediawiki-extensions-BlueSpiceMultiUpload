@@ -6,5 +6,6 @@
 	},
 	"bs-upload-multiuploaddialogtitle": "Carica file",
 	"bs-uploader-mime-images-label": "Immagini",
-	"bs-uploader-mime-files-label": "File"
+	"bs-uploader-mime-files-label": "File",
+	"bs-uploader-drop-or-click": "Trascina qui il file o fai clic per selezionare il file da caricare"
 }

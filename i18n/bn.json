@@ -9,5 +9,6 @@
 	"bs-upload-multiuploaddialogtitle": "ফাইল আপলোড করুন",
 	"bs-deferred-action-apiupload-description": "\"$2\"-এ \"$1\"-এর আপলোড",
 	"bs-uploader-mime-images-label": "চিত্র",
-	"bs-uploader-mime-files-label": "ফাইল"
+	"bs-uploader-mime-files-label": "ফাইল",
+	"bs-uploader-drop-or-click": "আপলোডের জন্য এখানে ফাইলটি টেনে এনে ছেড়ে দিন বা ফাইল নির্বাচন করতে ক্লিক করুন"
 }
