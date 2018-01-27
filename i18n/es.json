@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"bs-multiupload-desc": "Ofrece subida de archivos en lotes",
@@ -9,5 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "Subir archivos",
 	"bs-deferred-action-apiupload-description": "Subida de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Imágenes",
-	"bs-uploader-mime-files-label": "Archivos"
+	"bs-uploader-mime-files-label": "Archivos",
+	"bs-uploader-drop-or-click": "Arrastra y coloca aquí un archivo para cargarlo o pulsa para seleccionar uno"
 }
