@@ -9,5 +9,13 @@
 	"bs-upload-multiuploaddialogtitle": "Upload files",
 	"bs-deferred-action-apiupload-description": "Upload of \"$1\" to \"$2\"",
 	"bs-uploader-mime-images-label": "Images",
-	"bs-uploader-mime-files-label": "Files"
+	"bs-uploader-mime-files-label": "Files",
+	"bs-multiupload-tag-button-desc": "Shows a button that allows pre-configured uploads to the wiki",
+	"bs-multiupload-tag-button-label-default": "Upload file",
+	"bs-multiupload-tag-dropzone-desc": "Shows a dropzone that allows pre-configured uploads to the wiki",
+	"bs-multiupload-tag-dropzone-label-default": "Drag and drop a file here to start upload",
+	"bs-multiupload-tag-error-invalid prefix": "Invalid filename prefix \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "Invalid {{PLURAL:$1|category|categories}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "The page will be reloaded now"
+
 }
