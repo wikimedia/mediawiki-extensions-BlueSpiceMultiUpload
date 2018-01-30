@@ -1,22 +1,37 @@
 (function( mw, $, bs, d, undefined ){
 	function _showDialog( upldr, files ) {
 		upldr.disableBrowse(true);
-
-		Ext.require('BS.dialog.MultiUpload', function(){
-			var mud = new BS.dialog.MultiUpload({
-				uploader: upldr,
-				files: files
+		mw.loader.using( 'ext.bluespice.extjs.upload', function() {
+			Ext.require('BS.dialog.MultiUpload', function(){
+				var mud = new BS.dialog.MultiUpload( {
+						uploader: upldr,
+						files: files,
+						uploadPanelCfg: upldr.settings.uploadPanelCfg
+				});
+				mud.show();
+				mud.on( 'uploadcomplete', upldr.settings.onUploadDialogUploadComplete );
+				mud.on( 'cancel', function() { upldr.disableBrowse(false); } );
 			});
-			mud.show();
 		});
 	};
 
 	bs.uploader = bs.uploader || {};
-	bs.uploader.bindTo = function( elem ) {
+	bs.uploader.bindTo = function( elem, cfg ) {
 		var dfd = $.Deferred();
+		cfg = cfg || {};
+		cfg = $.extend( {
+			onUploadDialogUploadComplete: $.noop
+		}, cfg );
 
-		mw.loader.using( [ 'ext.bluespice.upload', 'ext.bluespice.extjs.upload' ], function() {
-			var uploader = bs.upload.makeUploader( { browse_button: elem } );
+		mw.loader.using( [ 'ext.bluespice.upload' ], function() {
+			var uploader = bs.upload.makeUploader( $.extend(
+				{
+					drop_element: elem,
+					browse_button: elem,
+					dragdrop: true
+				},
+				cfg
+			) );
 			uploader.bind( 'FilesAdded', _showDialog );
 			dfd.resolve( uploader );
 		});

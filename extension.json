@@ -7,6 +7,7 @@
 	],
 	"url": "http://bluespice.com",
 	"descriptionmsg": "bs-multiupload-desc",
+	"license-name": "GPL-3.0",
 	"type": "bluespice",
 	"bsgExtensions": {
 		"BlueSpiceMultiUpload": {
@@ -20,7 +21,10 @@
 		]
 	},
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
 	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\MultiUpload\\" : "src/"
@@ -33,7 +37,9 @@
 		"BeforePageDisplay": "BlueSpiceMultiUploadHooks::onBeforePageDisplay",
 		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
 		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
-		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\MultiUpload\\Hook\\SkinTemplateOutputPageBeforeExec\\AddDropZone::callback"
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\MultiUpload\\Hook\\SkinTemplateOutputPageBeforeExec\\AddDropZone::callback",
+		"BSInsertMagicAjaxGetData": "BlueSpice\\MultiUpload\\Hook\\BSInsertMagicAjaxGetData\\AddTags::callback",
+		"ParserFirstCallInit": "BlueSpice\\MultiUpload\\Hook\\ParserFirstCallInit\\AddTags::callback"
 	},
 	"ResourceModules": {
 		"ext.bluespice.multiUpload": {
@@ -122,6 +128,25 @@
 			],
 			"targets": [
 				"mobile", "desktop"
+			]
+		},
+		"ext.bluespice.multiUpload.tags": {
+			"scripts": [
+				"ext.bluespice.multiUpload.tags.js"
+			],
+			"messages": [
+				"bs-multiupload-tag-hint-reloadpage"
+			],
+			"dependencies": [
+				"ext.bluespice.uploader.bootstrap"
+			],
+			"targets": [
+				"mobile", "desktop"
+			]
+		},
+		"ext.bluespice.multiUpload.tags.styles": {
+			"styles": [
+				"ext.bluespice.multiUpload.tags.less"
 			]
 		}
 	},

@@ -12,5 +12,12 @@
 	"bs-deferred-action-apiupload-description": "Description of an action that uploads a file to the wiki.\n\nParameters:\n* $1 - The source file name\n* $2 - The target file name",
 	"bs-uploader-mime-images-label": "Label used in a drop down that allows filtering for certain file types. Filters for image file types.\n{{Identical|Image}}",
 	"bs-uploader-mime-files-label": "Label used in a drop down that allows filtering for certain file types. Filters for all but image file types.\n{{Identical|File}}",
-	"bs-uploader-drop-or-click": "Label used in file drop area to describe usage, user can drag and drop file for upload or click into the field to open file selection dialog."
+	"bs-uploader-drop-or-click": "Label used in file drop area to describe usage, user can drag and drop file for upload or click into the field to open file selection dialog.",
+	"bs-multiupload-tag-button-desc": "Description of the tag <multiuploadbutton />",
+	"bs-multiupload-tag-button-label-default": "Label for button that allows upload of files",
+	"bs-multiupload-tag-dropzone-desc": "Description of the tag <multiuploaddropzone />",
+	"bs-multiupload-tag-dropzone-label-default": "Label for a dropzone that allows upload of files",
+	"bs-multiupload-tag-error-invalid prefix": "Error message if an invalid filename prefix was provided in tha tag attributes.\n\nParameters:\n* $1 - The provided value",
+	"bs-multiupload-tag-error-invalid-categories": "Error message if an invalid category was provided in tha tag attributes.\n\nParameters:\n* $1 - The number of invalid values\n* $2 - The list of invalid values",
+	"bs-multiupload-tag-hint-reloadpage": "A message displayed to the user before the page will be reloaded"
 }

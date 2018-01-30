@@ -1,0 +1,36 @@
+body.mediawiki #content .bs-multiupload-button {
+	.icon {
+		&:before {
+			color: @bs-color-neutral;
+		}
+		margin-right: 0.5em;
+	}
+}
+
+.bs-multiupload-dropzone {
+	cursor: pointer;
+	border: 3px dashed lighten( @bs-color-primary, 25% );
+	overflow: hidden;
+	white-space: normal;
+	background-color: lighten( @bs-color-neutral, 40% );
+	display: table;
+
+	& .inner {
+		padding: 3em;
+		display:table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	&:hover {
+		background-color: lighten( @bs-color-neutral, 45% );
+	}
+
+	.icon {
+		/* @embed */
+		background-image: url( "images/bsdropzone.png" );
+		width: 64px;
+		height: 64px;
+		margin: auto;
+	}
+}

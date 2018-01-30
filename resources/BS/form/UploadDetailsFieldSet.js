@@ -11,12 +11,21 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 	},
 	title: mw.message('bs-upload-details').plain(),
 
+	/* Component specific */
+	defaultFileNamePrefix: '',
+	defaultCategories: [],
+	defaultDescription: '',
+	defaultLicence: null,
+	implicitFileNamePrefix: '',
+	implicitCategories: [],
+	implicitDescription: '',
+
 	initComponent: function() {
 
 		this.taDescription = new Ext.form.field.TextArea({
 			fieldLabel: mw.message('bs-upload-descfilelabel').plain(),
 			id: this.getId()+'-text',
-			value: '',
+			value: this.defaultDescription,
 			name: 'text'
 		});
 
@@ -53,6 +62,7 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 				}
 			)
 		});
+		this.cbLicences.setValue( this.defaultLicence );
 
 		this.cbxWatch = new Ext.form.field.Checkbox({
 			boxLabel: mw.message('bs-upload-uploadwatchthislabel').plain(),
@@ -73,6 +83,7 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 			name: 'categories',
 			fieldLabel: mw.message('bs-upload-categories').plain()
 		});
+		this.bsCategories .setValue( this.defaultCategories );
 
 		this.items = this.makeItems();
 		this.callParent(arguments);
@@ -96,6 +107,7 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 		}
 
 		var categories = this.bsCategories.getValue();
+		categories = categories.concat( this.implicitCategories );
 		var formattedNamespaces = mw.config.get('wgFormattedNamespaces');
 		for( var i = 0; i < categories.length; i++ ) {
 			var category = categories[i];
@@ -106,8 +118,10 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 			});
 			desc += "\n" + categoryLink.toString();
 		}
+		desc += this.implicitDescription;
 
 		return {
+			fileNamePrefix: this.implicitFileNamePrefix + this.defaultFileNamePrefix,
 			text: desc,
 			watch: this.cbxWatch.getValue() ? 1: 0,
 			ignorewarnings: this.cbxWarnings.getValue() ? 1 : 0
