@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-multi-upload",
 	"type": "mediawiki-extension",
 	"description": "Provides batch uploading of files",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
