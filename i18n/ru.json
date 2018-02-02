@@ -3,7 +3,8 @@
 		"authors": [
 			"Kareyac",
 			"Okras",
-			"Facenapalm"
+			"Facenapalm",
+			"Movses"
 		]
 	},
 	"bs-multiupload-desc": "Обеспечивает пакетную загрузку файлов",
@@ -11,5 +12,6 @@
 	"bs-upload-multiuploaddialogtitle": "Загрузить файлы",
 	"bs-deferred-action-apiupload-description": "Загрузка «$1» в «$2»",
 	"bs-uploader-mime-images-label": "Изображения",
-	"bs-uploader-mime-files-label": "Файлы"
+	"bs-uploader-mime-files-label": "Файлы",
+	"bs-uploader-drop-or-click": "Перетащите файл или щёлкните его, чтобы выбрать для загрузки"
 }
