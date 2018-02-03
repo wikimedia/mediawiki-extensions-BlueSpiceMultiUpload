@@ -63,8 +63,7 @@
 			],
 			"dependencies": [
 				"ext.bluespice"
-			],
-			"position": "top"
+			]
 		},
 		"ext.bluespice.upload": {
 			"scripts": [
