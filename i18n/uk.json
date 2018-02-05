@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"Movses"
 		]
 	},
 	"bs-multiupload-desc": "Забезпечує можливість пакетного завантаження файлів",
@@ -9,5 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "Завантажити файли",
 	"bs-deferred-action-apiupload-description": "Завантаження «$1» до «$2»",
 	"bs-uploader-mime-images-label": "Зображення",
-	"bs-uploader-mime-files-label": "Файли"
+	"bs-uploader-mime-files-label": "Файли",
+	"bs-uploader-drop-or-click": "Перетягніть файл, або клацніть, щоб вибрати для завантаження"
 }
