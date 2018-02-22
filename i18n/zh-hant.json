@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"和平奮鬥救地球",
-			"Wehwei"
+			"Wehwei",
+			"Kly"
 		]
 	},
 	"bs-multiupload-desc": "提供批量上傳文件",
@@ -10,5 +11,6 @@
 	"bs-upload-multiuploaddialogtitle": "上傳檔案",
 	"bs-deferred-action-apiupload-description": "上傳“$1”至“$2”",
 	"bs-uploader-mime-images-label": "圖片",
-	"bs-uploader-mime-files-label": "檔案"
+	"bs-uploader-mime-files-label": "檔案",
+	"bs-uploader-drop-or-click": "拖拉檔案於此，或點擊來選擇要上傳的檔案"
 }
