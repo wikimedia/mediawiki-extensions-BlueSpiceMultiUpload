@@ -23,8 +23,6 @@ Ext.define('BS.action.APIUpload', {
 			warch: 1
 		};
 
-		this.addEvents( 'beforeuploadfile' );
-
 		this.callParent( arguments );
 
 		this.uploader.bind( 'FileUploaded' ,this.onFileUploaded, this );

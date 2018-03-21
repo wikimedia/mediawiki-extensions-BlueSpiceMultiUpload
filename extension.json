@@ -48,7 +48,8 @@
 				"ext.bluespice.multiUpload.dropzone.less"
 			],
 			"dependencies": [
-				"ext.bluespice.uploader.bootstrap"
+				"ext.bluespice.uploader.bootstrap",
+				"ext.bluespice.extjs.BS.deferred"
 			],
 			"targets": [
 				"mobile", "desktop"

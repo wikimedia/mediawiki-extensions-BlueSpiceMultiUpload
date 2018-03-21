@@ -18,7 +18,11 @@ $(function(){
 	$(document).on( 'BS.grid.FileRepo.initComponent', function(e, sender, items ){
 		sender.btnUpload.clearListeners();
 		sender.btnUpload.on('afterrender', function( button ) {
-			bs.uploader.bindTo( button.getEl().dom );
+			bs.uploader.bindTo( button.getEl().dom ).done( function( uploader ) {
+				uploader.bind('UploadComplete', function( uploader, files) {
+					sender.getStore().load();
+				});
+			});
 		});
 	} );
 
