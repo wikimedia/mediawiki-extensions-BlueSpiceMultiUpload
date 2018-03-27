@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"GR"
+			"GR",
+			"Nikosgranturismogt"
 		]
 	},
+	"bs-upload-multiupload-link-label": "Ανέβασμα αρχείων",
 	"bs-upload-multiuploaddialogtitle": "Ανέβασμα αρχείων",
 	"bs-uploader-mime-images-label": "Εικόνες",
 	"bs-uploader-mime-files-label": "Αρχεία"
