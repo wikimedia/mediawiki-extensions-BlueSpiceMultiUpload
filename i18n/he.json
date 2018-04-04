@@ -1,10 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
+	"bs-multiupload-desc": "מתן אפשרות להעלאת קבצים מרובים",
+	"bs-upload-multiupload-link-label": "העלאת קבצים",
 	"bs-upload-multiuploaddialogtitle": "העלאת קבצים",
+	"bs-deferred-action-apiupload-description": "העלאת הקובץ \"$1\" אל \"$2\"",
 	"bs-uploader-mime-images-label": "תמונות",
-	"bs-uploader-mime-files-label": "קבצים"
+	"bs-uploader-mime-files-label": "קבצים",
+	"bs-uploader-drop-or-click": "יש לגרור ולשחרר קובץ לכאן, או לחלופין לבחור קובץ להעלאה"
 }
