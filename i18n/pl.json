@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"bs-upload-multiupload-link-label": "Prześlij pliki",
 	"bs-upload-multiuploaddialogtitle": "Przesyłanie plików",
 	"bs-uploader-mime-images-label": "Obrazy",
-	"bs-uploader-mime-files-label": "Pliki"
+	"bs-uploader-mime-files-label": "Pliki",
+	"bs-multiupload-tag-button-label-default": "Prześlij plik",
+	"bs-multiupload-tag-dropzone-label-default": "Przeciągnij i upuść plik tutaj, aby rozpocząć przesyłanie",
+	"bs-multiupload-tag-error-invalid prefix": "Nieprawidłowy prefiks pliku „$1”!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Nieprawidłowa kategoria|Nieprawidłowe kategorie|Nieprawidłowych kategorii}}: „$2”",
+	"bs-multiupload-tag-hint-reloadpage": "Strona zostanie teraz odświeżona"
 }

@@ -8,5 +8,7 @@
 	"bs-upload-multiuploaddialogtitle": "Fichieren eroplueden",
 	"bs-deferred-action-apiupload-description": "Eropluede vu(n) \"$1\" op \"$2\"",
 	"bs-uploader-mime-images-label": "Biller",
-	"bs-uploader-mime-files-label": "Fichieren"
+	"bs-uploader-mime-files-label": "Fichieren",
+	"bs-multiupload-tag-button-label-default": "Fichier eroplueden",
+	"bs-multiupload-tag-hint-reloadpage": "D'Säit gëtt elo nei gelueden"
 }
