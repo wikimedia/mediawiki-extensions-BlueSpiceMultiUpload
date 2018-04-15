@@ -12,5 +12,6 @@
 	"bs-deferred-action-apiupload-description": "Téléchargement de « $1 » vers « $2 »",
 	"bs-uploader-mime-images-label": "Images",
 	"bs-uploader-mime-files-label": "Fichiers",
-	"bs-uploader-drop-or-click": "Glisser & déposer le fichier ici ou cliquer pour sélectionner le fichier à téléverser"
+	"bs-uploader-drop-or-click": "Glisser & déposer le fichier ici ou cliquer pour sélectionner le fichier à téléverser",
+	"bs-multiupload-tag-button-label-default": "Téléverser le fichier"
 }
