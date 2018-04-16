@@ -7,5 +7,8 @@
 	"bs-upload-multiuploaddialogtitle": "Carica file",
 	"bs-uploader-mime-images-label": "Immagini",
 	"bs-uploader-mime-files-label": "File",
-	"bs-uploader-drop-or-click": "Trascina qui il file o fai clic per selezionare il file da caricare"
+	"bs-uploader-drop-or-click": "Trascina qui il file o fai clic per selezionare il file da caricare",
+	"bs-multiupload-tag-button-label-default": "Carica file",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria non valida|Categorie non valide}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "La pagina verrà ricaricata ora"
 }
