@@ -14,5 +14,6 @@
 	"bs-uploader-drop-or-click": "Arrastra y coloca aquí un archivo para cargarlo o pulsa para seleccionar uno",
 	"bs-multiupload-tag-button-label-default": "Cargar un archivo",
 	"bs-multiupload-tag-dropzone-label-default": "Arrastra y coloca un archivo aquí para comenzar la carga",
+	"bs-multiupload-tag-error-invalid prefix": "El prefijo del nombre de archivo «$1» no es válido.",
 	"bs-multiupload-tag-hint-reloadpage": "Ahora se volverá a cargar la página"
 }

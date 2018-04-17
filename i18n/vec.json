@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cusolotto"
+		]
+	},
+	"bs-multiupload-tag-button-label-default": "Carga file",
+	"bs-multiupload-tag-dropzone-label-default": "Trasina chi en file par cargarlo",
+	"bs-multiupload-tag-error-invalid prefix": "El nome del file nol va mia ben \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "Mia valida {{PLURAL:$1|la categoria|le categorie}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Ea pagina la verà ricargà ora."
+}
