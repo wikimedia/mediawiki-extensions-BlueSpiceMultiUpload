@@ -15,5 +15,6 @@
 	"bs-multiupload-tag-button-label-default": "Cargar un archivo",
 	"bs-multiupload-tag-dropzone-label-default": "Arrastra y coloca un archivo aquí para comenzar la carga",
 	"bs-multiupload-tag-error-invalid prefix": "El prefijo del nombre de archivo «$1» no es válido.",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoría no válida|Categorías no válidas}}: «$2»",
 	"bs-multiupload-tag-hint-reloadpage": "Ahora se volverá a cargar la página"
 }
