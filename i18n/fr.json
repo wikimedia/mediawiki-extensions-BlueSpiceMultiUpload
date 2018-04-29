@@ -15,7 +15,7 @@
 	"bs-uploader-drop-or-click": "Glisser & déposer le fichier ici ou cliquer pour sélectionner le fichier à téléverser",
 	"bs-multiupload-tag-button-desc": "Affiche un bouton qui permet les téléversements prédéfinis vers le wiki",
 	"bs-multiupload-tag-button-label-default": "Téléverser le fichier",
-	"bs-multiupload-tag-dropzone-desc": "Affiche une zone de dépôt qui permet les téléchargements préconfigurés vers le wiki",
+	"bs-multiupload-tag-dropzone-desc": "Affiche une zone de dépôt qui permet les téléversements préconfigurés vers le wiki",
 	"bs-multiupload-tag-dropzone-label-default": "Faites glisser et déposez un fichier ici pour commencer le téléversement",
 	"bs-multiupload-tag-error-invalid prefix": "Préfixe de nom de fichier invalide \"$1\" !",
 	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Catégorie non valide|Catégories non valides}} : « $2 »",
