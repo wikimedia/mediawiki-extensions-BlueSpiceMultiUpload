@@ -17,12 +17,23 @@ Ext.define( 'BS.dialog.MultiUpload', {
 	},
 
 	makeItems: function() {
-		this.fsUploadDetails = new BS.form.UploadDetailsFieldSet( $.extend(
+		this.uploadPanelCfg = this.uploadPanelCfg || {};
+		this.uploadPanelCfg = $.extend(
 			this.uploadPanelCfg,
 			{
+				defaultFileNamePrefix: '',
+				defaultCategories: [],
+				defaultDescription: '',
+				implicitFileNamePrefix: '',
+				implicitCategories: [],
+				implicitDescription: '',
 				collapsed: false
 			}
-		) );
+		);
+
+		this.fsUploadDetails = new BS.form.UploadDetailsFieldSet(
+			this.uploadPanelCfg
+		);
 
 		var items = [
 			this.fsUploadDetails
