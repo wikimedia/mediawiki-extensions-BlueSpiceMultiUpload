@@ -10,5 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "Subir ficheiros",
 	"bs-deferred-action-apiupload-description": "Suba de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Imaxes",
-	"bs-uploader-mime-files-label": "Ficheiros"
+	"bs-uploader-mime-files-label": "Ficheiros",
+	"bs-multiupload-tag-button-label-default": "Subir o ficheiro"
 }
