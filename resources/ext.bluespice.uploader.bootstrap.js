@@ -20,7 +20,8 @@
 		var dfd = $.Deferred();
 		cfg = cfg || {};
 		cfg = $.extend( {
-			onUploadDialogUploadComplete: $.noop
+			onUploadDialogUploadComplete: $.noop,
+			uploadPanelCfg: {}
 		}, cfg );
 
 		mw.loader.using( [ 'ext.bluespice.upload' ], function() {
