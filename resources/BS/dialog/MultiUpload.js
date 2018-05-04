@@ -19,7 +19,6 @@ Ext.define( 'BS.dialog.MultiUpload', {
 	makeItems: function() {
 		this.uploadPanelCfg = this.uploadPanelCfg || {};
 		this.uploadPanelCfg = $.extend(
-			this.uploadPanelCfg,
 			{
 				defaultFileNamePrefix: '',
 				defaultCategories: [],
@@ -28,7 +27,8 @@ Ext.define( 'BS.dialog.MultiUpload', {
 				implicitCategories: [],
 				implicitDescription: '',
 				collapsed: false
-			}
+			},
+			this.uploadPanelCfg
 		);
 
 		this.fsUploadDetails = new BS.form.UploadDetailsFieldSet(
