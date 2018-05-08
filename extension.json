@@ -1,13 +1,13 @@
 {
 	"name": "BlueSpiceMultiUpload",
-	"version": "2.27.0",
+	"version": "3.0.0-alpha",
 	"author": [
 		"Robert Vogel",
 		"Leonid Verhovskij"
 	],
 	"url": "http://bluespice.com",
 	"descriptionmsg": "bs-multiupload-desc",
-	"license-name": "GPL-3.0",
+	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
 	"bsgExtensions": {
 		"BlueSpiceMultiUpload": {
