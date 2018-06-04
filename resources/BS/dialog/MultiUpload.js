@@ -12,7 +12,6 @@ Ext.define( 'BS.dialog.MultiUpload', {
 	files: [],
 
 	initComponent: function() {
-		this.addEvents( 'uploadcomplete' );
 		this.callParent( arguments );
 	},
 

@@ -34,7 +34,10 @@
 		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "BlueSpiceMultiUploadHooks::onBeforePageDisplay",
+		"BeforePageDisplay": [
+			"BlueSpiceMultiUploadHooks::onBeforePageDisplay",
+			"\\BlueSpice\\MultiUpload\\Hook\\BeforePageDisplay\\AddDropZone::callback"
+		],
 		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
 		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
 		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\MultiUpload\\Hook\\SkinTemplateOutputPageBeforeExec\\AddDropZone::callback",
@@ -44,7 +47,18 @@
 	"ResourceModules": {
 		"ext.bluespice.multiUpload": {
 			"scripts": [
-				"ext.bluespice.multiUpload.js",
+				"ext.bluespice.multiUpload.js"
+			],
+			"dependencies": [
+				"ext.bluespice.uploader.bootstrap",
+				"ext.bluespice.extjs.BS.deferred"
+			],
+			"targets": [
+				"mobile", "desktop"
+			]
+		},
+		"ext.bluespice.multiUpload.dropzone": {
+			"scripts": [
 				"ext.bluespice.multiUpload.dropzone.js"
 			],
 			"messages": [
@@ -54,11 +68,7 @@
 				"ext.bluespice.multiUpload.dropzone.less"
 			],
 			"dependencies": [
-				"ext.bluespice.uploader.bootstrap",
-				"ext.bluespice.extjs.BS.deferred"
-			],
-			"targets": [
-				"mobile", "desktop"
+				"ext.bluespice.multiUpload"
 			]
 		},
 		"ext.bluespice.uploader.bootstrap": {
