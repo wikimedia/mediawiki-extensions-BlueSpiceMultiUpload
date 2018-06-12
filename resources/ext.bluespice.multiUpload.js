@@ -2,7 +2,12 @@ $(function(){
 	$(document).on( 'BSInsertFileInsertBaseDialogAfterInit', function(e, sender, items ){
 		sender.btnUpload.clearListeners();
 		sender.btnUpload.on('afterrender', function( button ) {
-			bs.uploader.bindTo( button.getEl().dom ).done( function( uploader ) {
+			bs.uploader.bindTo( button.getEl().dom, {
+                            uploadPanelCfg: {
+                                defaultFileNamePrefix: mw.config.get( 'wgPageName' ).split(':')[0]
+                            }
+                        } )
+                        .done( function( uploader ) {
 				uploader.bind('UploadComplete', function( uploader, files) {
 					sender.stImageGrid.load({
 						sorters: [{
