@@ -85,11 +85,12 @@ Ext.define( 'BS.dialog.MultiUpload', {
 		var diag =  new BS.dialog.BatchActions({
 			maxWidth: Ext.getBody().getViewSize().width //Mobile integration
 		});
+
 		diag.setData( actions );
 		diag.show();
 		diag.startProcessing();
-		diag.on( 'ok', function() {
-			this.fireEvent( 'uploadcomplete', this.uploader );
+		diag.on( 'ok', function( e, data ) {
+			this.fireEvent( 'uploadcomplete', this.uploader, data );
 		}, this);
 
 		this.callParent(arguments);
