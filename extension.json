@@ -9,10 +9,14 @@
 	"descriptionmsg": "bs-multiupload-desc",
 	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceMultiUpload": {
-			"className": "BlueSpiceMultiUpload",
-			"extPath": "/BlueSpiceMultiUpload"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceMultiUpload": {
+					"className": "\\BlueSpice\\MultiUpload\\Extension",
+					"extPath": "/BlueSpiceMultiUpload"
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -30,7 +34,6 @@
 		"BlueSpice\\MultiUpload\\" : "src/"
 	},
 	"AutoloadClasses": {
-		"BlueSpiceMultiUpload": "BlueSpiceMultiUpload.class.php",
 		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
 	},
 	"Hooks": {
@@ -164,5 +167,5 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceMultiUpload/resources"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
