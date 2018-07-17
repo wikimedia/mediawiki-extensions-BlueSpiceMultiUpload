@@ -3,11 +3,11 @@ $(function(){
 		sender.btnUpload.clearListeners();
 		sender.btnUpload.on('afterrender', function( button ) {
 			bs.uploader.bindTo( button.getEl().dom, {
-                            uploadPanelCfg: {
-                                defaultFileNamePrefix: mw.config.get( 'wgPageName' ).split(':')[0]
-                            }
-                        } )
-                        .done( function( uploader ) {
+				uploadPanelCfg: {
+					defaultFileNamePrefix: mw.config.get( 'wgPageName' ).split(':')[0]
+				}
+			} )
+			.done( function( uploader ) {
 				uploader.bind('UploadComplete', function( uploader, files) {
 					sender.stImageGrid.load({
 						sorters: [{
@@ -43,8 +43,11 @@ $(function(){
 	//so unforntunately we need to analyze the actual URL instead
 	//of using IDs or classes to identify the elements
 	mw.loader.using( 'mediawiki.Title' ).done(function(){
-		$( '.bs-nav-tab a' ).each( function(){
+		$( '.bs-nav-tab a, .bs-tabs a' ).each( function(){
 			var sTitle = $(this).data( 'bs-title' ); //Provided by BSF + MW Linker
+			if( !sTitle ) {
+				sTitle = $(this).attr( 'title' );
+			}
 			if( !sTitle ) {
 				return;
 			}
