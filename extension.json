@@ -38,12 +38,10 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
-			"BlueSpiceMultiUploadHooks::onBeforePageDisplay",
-			"\\BlueSpice\\MultiUpload\\Hook\\BeforePageDisplay\\AddDropZone::callback"
+			"BlueSpiceMultiUploadHooks::onBeforePageDisplay"
 		],
 		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
 		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
-		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\MultiUpload\\Hook\\SkinTemplateOutputPageBeforeExec\\AddDropZone::callback",
 		"BSInsertMagicAjaxGetData": "BlueSpice\\MultiUpload\\Hook\\BSInsertMagicAjaxGetData\\AddTags::callback",
 		"ParserFirstCallInit": "BlueSpice\\MultiUpload\\Hook\\ParserFirstCallInit\\AddTags::callback"
 	},
@@ -58,20 +56,6 @@
 			],
 			"targets": [
 				"mobile", "desktop"
-			]
-		},
-		"ext.bluespice.multiUpload.dropzone": {
-			"scripts": [
-				"ext.bluespice.multiUpload.dropzone.js"
-			],
-			"messages": [
-				"bs-uploader-drop-or-click"
-			],
-			"styles": [
-				"ext.bluespice.multiUpload.dropzone.less"
-			],
-			"dependencies": [
-				"ext.bluespice.multiUpload"
 			]
 		},
 		"ext.bluespice.uploader.bootstrap": {
