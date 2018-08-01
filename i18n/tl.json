@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Leeheonjin"
+			"Leeheonjin",
+			"Jojit fb"
 		]
 	},
-	"bs-upload-multiupload-link-label": "Magkarga ng mga talaksan"
+	"bs-upload-multiupload-link-label": "Magkarga ng mga file"
 }
