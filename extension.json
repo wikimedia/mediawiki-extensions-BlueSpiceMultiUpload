@@ -142,6 +142,7 @@
 			]
 		},
 		"ext.bluespice.multiUpload.tags.styles": {
+			"class": "\\BlueSpice\\ResourceModule\\LessVars",
 			"styles": [
 				"ext.bluespice.multiUpload.tags.less"
 			]

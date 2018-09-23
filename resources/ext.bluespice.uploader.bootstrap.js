@@ -15,6 +15,16 @@
 		});
 	};
 
+	function _showError( uploader, error ) {
+		bs.util.alert(
+			'bs-multiupload-plupload-error',
+			{
+				titleMsg: 'bs-extjs-title-warning',
+				text: error.message
+			}
+		);
+	};
+
 	bs.uploader = bs.uploader || {};
 	bs.uploader.bindTo = function( elem, cfg ) {
 		var dfd = $.Deferred();
@@ -34,6 +44,8 @@
 				cfg
 			) );
 			uploader.bind( 'FilesAdded', _showDialog );
+			uploader.bind( 'Error', _showError );
+
 			dfd.resolve( uploader );
 		});
 
