@@ -21,6 +21,9 @@ $(function(){
 	} );
 
 	$(document).on( 'BS.grid.FileRepo.initComponent', function(e, sender, items ){
+		if( !sender.btnUpload ) {
+			return;
+		}
 		sender.btnUpload.clearListeners();
 		sender.btnUpload.on('afterrender', function( button ) {
 			bs.uploader.bindTo( button.getEl().dom ).done( function( uploader ) {
