@@ -37,9 +37,7 @@
 		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"BlueSpiceMultiUploadHooks::onBeforePageDisplay"
-		],
+		"BeforePageDisplay": "\\BlueSpice\\MultiUpload\\Hook\\BeforePageDisplay\\AddResources::callback",
 		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
 		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
 		"BSInsertMagicAjaxGetData": "BlueSpice\\MultiUpload\\Hook\\BSInsertMagicAjaxGetData\\AddTags::callback",
