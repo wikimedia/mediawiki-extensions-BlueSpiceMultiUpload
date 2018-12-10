@@ -51,17 +51,11 @@
 			"dependencies": [
 				"ext.bluespice.uploader.bootstrap",
 				"ext.bluespice.extjs.BS.deferred"
-			],
-			"targets": [
-				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.uploader.bootstrap": {
 			"scripts": [
 				"ext.bluespice.uploader.bootstrap.js"
-			],
-			"targets": [
-				"desktop", "mobile"
 			],
 			"dependencies": [
 				"ext.bluespice"
@@ -79,9 +73,6 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
-			],
-			"targets": [
-				"desktop", "mobile"
 			]
 		},
 		"ext.bluespice.extjs.upload": {
@@ -100,9 +91,6 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
-			],
-			"targets": [
-				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.multiUpload.MobileFrontend": {
@@ -112,17 +100,11 @@
 			"dependencies": [
 				"ext.bluespice.upload",
 				"ext.bluespice.uploader.bootstrap"
-			],
-			"targets": [
-				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.multiUpload.MobileFrontend.styles": {
 			"styles": [
 				"ext.bluespice.multiUpload.MobileFrontend.less"
-			],
-			"targets": [
-				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.multiUpload.tags": {
@@ -134,9 +116,6 @@
 			],
 			"dependencies": [
 				"ext.bluespice.uploader.bootstrap"
-			],
-			"targets": [
-				"mobile", "desktop"
 			]
 		},
 		"ext.bluespice.multiUpload.tags.styles": {
