@@ -49,8 +49,7 @@
 				"ext.bluespice.multiUpload.js"
 			],
 			"dependencies": [
-				"ext.bluespice.uploader.bootstrap",
-				"ext.bluespice.extjs.BS.deferred"
+				"ext.bluespice.uploader.bootstrap"
 			]
 		},
 		"ext.bluespice.uploader.bootstrap": {
@@ -72,7 +71,7 @@
 				"bs-uploader-mime-files-label"
 			],
 			"dependencies": [
-				"ext.bluespice.extjs"
+				"ext.bluespice"
 			]
 		},
 		"ext.bluespice.extjs.upload": {
