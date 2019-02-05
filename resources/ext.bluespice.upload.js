@@ -66,7 +66,7 @@
 				}
 			};
 
-			cfg = Ext.Object.merge( defaultCfg, cfg );
+			cfg = $.extend( defaultCfg, cfg );
 
 			var uploader = new plupload.Uploader( cfg );
 			uploader.init();
