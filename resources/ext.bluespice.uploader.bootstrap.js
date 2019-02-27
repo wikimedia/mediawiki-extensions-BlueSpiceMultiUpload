@@ -4,6 +4,7 @@
 		mw.loader.using( 'ext.bluespice.extjs.upload', function() {
 			Ext.require('BS.dialog.MultiUpload', function(){
 				var mud = new BS.dialog.MultiUpload( {
+						id: 'bs-multiupload-dlg',
 						uploader: upldr,
 						files: files,
 						uploadPanelCfg: upldr.settings.uploadPanelCfg
