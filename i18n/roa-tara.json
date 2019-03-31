@@ -4,6 +4,7 @@
 			"Joetaras"
 		]
 	},
+	"bs-multiupload-desc": "Dèje 'u carecamende automateche de le file",
 	"bs-upload-multiupload-link-label": "Careche le file",
 	"bs-upload-multiuploaddialogtitle": "Careche le file",
 	"bs-deferred-action-apiupload-description": "Careche de \"$1\" a \"$2\"",
