@@ -10,5 +10,12 @@
 	"bs-deferred-action-apiupload-description": "Careche de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Immaggine",
 	"bs-uploader-mime-files-label": "Fail",
-	"bs-multiupload-tag-button-label-default": "Careche 'u file"
+	"bs-uploader-drop-or-click": "Carresce aqquà le file o cazze pe scacchià 'u file da carecà",
+	"bs-multiupload-tag-button-desc": "Fà 'ndrucà 'nu buttone ca face fa le carecaminde preconfigurate sus 'a uicchi",
+	"bs-multiupload-tag-button-label-default": "Careche 'u file",
+	"bs-multiupload-tag-dropzone-desc": "Fà 'ndrucà 'na zone pu carresciamende ca face fa le carecaminde preconfigurate sus 'a uicchi",
+	"bs-multiupload-tag-dropzone-label-default": "Carresce aqquà 'nu file pe accumenzà 'u carecamende",
+	"bs-multiupload-tag-error-invalid prefix": "'U prefisse d'u nome de archiviazione $1 non gè valide!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categorije}} invalide \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "'A pàgene avène carecate arrete mò"
 }
