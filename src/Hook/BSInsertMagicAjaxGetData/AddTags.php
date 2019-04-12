@@ -21,9 +21,9 @@ class AddTags {
 
 	/**
 	 *
-	 * @param \stdClass $response
+	 * @param \stdClass &$response
 	 * @param string $type
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function callback( &$response, $type ) {
 		$handler = new self( $response, $type );
@@ -33,7 +33,7 @@ class AddTags {
 
 	/**
 	 *
-	 * @param \stdClass $response
+	 * @param \stdClass &$response
 	 * @param string $type
 	 */
 	public function __construct( &$response, $type ) {
@@ -43,18 +43,18 @@ class AddTags {
 
 	/**
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function process() {
 		return $this->doProcess();
 	}
 
 	protected function doProcess() {
-		if( $this->type !== 'tags' ) {
+		if ( $this->type !== 'tags' ) {
 			return true;
 		}
 
-		//Button
+		// Button
 		$descriptor = new \stdClass();
 		$descriptor->id = '<' . MultiUploadButton::TAG_NAME . '>';
 		$descriptor->type = 'tag';
@@ -73,7 +73,7 @@ HERE;
 
 		$this->response->result[] = $descriptor;
 
-		//Dropzone
+		// Dropzone
 		$descriptor = new \stdClass();
 		$descriptor->id = '<' . MultiUploadDropZone::TAG_NAME . '>';
 		$descriptor->type = 'tag';

@@ -15,8 +15,8 @@ class AddTags {
 
 	/**
 	 *
-	 * @param \Parser $parser
-	 * @return boolean
+	 * @param \Parser &$parser
+	 * @return bool
 	 */
 	public static function callback( &$parser ) {
 		$handler = new self( $parser );
@@ -26,7 +26,7 @@ class AddTags {
 
 	/**
 	 *
-	 * @param \Parser $parser
+	 * @param \Parser &$parser
 	 */
 	public function __construct( &$parser ) {
 		$this->parser =& $parser;
@@ -34,7 +34,7 @@ class AddTags {
 
 	/**
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public function process() {
 		return $this->doProcess();
