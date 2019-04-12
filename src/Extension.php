@@ -2,4 +2,5 @@
 
 namespace BlueSpice\MultiUpload;
 
-class Extension extends \BlueSpice\Extension {}
+class Extension extends \BlueSpice\Extension {
+}

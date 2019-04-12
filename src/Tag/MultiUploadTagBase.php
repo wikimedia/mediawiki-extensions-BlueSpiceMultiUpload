@@ -56,7 +56,6 @@ abstract class MultiUploadTagBase {
 	 */
 	protected $processedArgs = [];
 
-
 	/*
 	 * MediaWikiServices
 	 */
@@ -101,10 +100,9 @@ abstract class MultiUploadTagBase {
 
 	public function handle() {
 		$this->processInputAndArguments();
-		if( $this->hasErrors() ) {
+		if ( $this->hasErrors() ) {
 			return $this->outputErrors();
-		}
-		else {
+		} else {
 			return $this->doHandle();
 		}
 	}
@@ -112,16 +110,16 @@ abstract class MultiUploadTagBase {
 	protected function processInputAndArguments() {
 		$this->args += $this->getDefaultArgs();
 
-		foreach( $this->args as $attrName => $attrValue ) {
+		foreach ( $this->args as $attrName => $attrValue ) {
 			$this->args[$attrName] = $this->parser->recursiveTagParse( $attrValue, $this->frame );
 		}
 
 		$labelMessage = $this->getDefaultLabelMessage();
 		$this->processedArgs[static::ATTR_LABEL] = $labelMessage->inContentLanguage()->plain();
-		if( !empty( $this->args[static::ATTR_LABEL] ) ) {
+		if ( !empty( $this->args[static::ATTR_LABEL] ) ) {
 			$this->processedArgs[static::ATTR_LABEL] = $this->args[static::ATTR_LABEL];
 		}
-		$this->processedArgs[static::ATTR_RELOADPAGE] = (bool) \FormatJson::decode( $this->args[static::ATTR_RELOADPAGE] );
+		$this->processedArgs[static::ATTR_RELOADPAGE] = (bool)\FormatJson::decode( $this->args[static::ATTR_RELOADPAGE] );
 		$this->processedArgs[static::ATTR_CLASS] = explode( ' ', $this->args[static::ATTR_CLASS] );
 
 		$this->setPrefixArg( static::ATTR_DEFAULT_FILENAMEPREFIX );
@@ -143,11 +141,11 @@ abstract class MultiUploadTagBase {
 
 	protected function outputErrors() {
 		$output = [];
-		foreach( $this->errors as $errorId => $errorMessage ) {
+		foreach ( $this->errors as $errorId => $errorMessage ) {
 			$output[] = \Html::element(
 				'div',
 				[ 'class' => 'box-error' ],
-				$errorId . ": " .  $errorMessage->parse()
+				$errorId . ": " . $errorMessage->parse()
 			);
 		}
 
@@ -163,15 +161,15 @@ abstract class MultiUploadTagBase {
 
 	protected function setPrefixArg( $key ) {
 		$this->processedArgs[$key] = '';
-		if( empty( $this->args[$key] ) ) {
+		if ( empty( $this->args[$key] ) ) {
 			return;
 		}
 
 		$prefix = $this->args[$key];
-		$dummyTitle = $prefix.'_dummy.png';
+		$dummyTitle = $prefix . '_dummy.png';
 		$dummyFile = \RepoGroup::singleton()->getLocalRepo()->newFile( $dummyTitle );
 
-		if( $dummyFile === null ) {
+		if ( $dummyFile === null ) {
 			$this->errors[$key] = wfMessage( 'bs-multiupload-tag-error-invalid prefix', $prefix );
 			return;
 		}
@@ -181,22 +179,22 @@ abstract class MultiUploadTagBase {
 
 	protected function setCategoriesArg( $key ) {
 		$this->processedArgs[$key] = [];
-		if( empty( $this->args[$key] ) ) {
+		if ( empty( $this->args[$key] ) ) {
 			return;
 		}
 		$categories = explode( '|', $this->args[$key] );
 		$invalidCategories = [];
 		$categoryRecords = [];
-		foreach( $categories as $category ) {
-			$category = trim ( $category );
+		foreach ( $categories as $category ) {
+			$category = trim( $category );
 			$title = \Title::newFromText( $category, NS_CATEGORY );
-			if( $title === null ) {
+			if ( $title === null ) {
 				$invalidCategories[] = $category;
 				continue;
 			}
 			$categoryRecords[] = $title->getText();
 		}
-		if( !empty( $invalidCategories ) ) {
+		if ( !empty( $invalidCategories ) ) {
 			$count = count( $invalidCategories );
 			$list = implode( ', ', $invalidCategories );
 			$errorMessage = wfMessage(
@@ -221,10 +219,10 @@ abstract class MultiUploadTagBase {
 			'class' => implode( ' ', $classes )
 		];
 
-		foreach( $this->getDataAttributeNames() as $attrName ) {
+		foreach ( $this->getDataAttributeNames() as $attrName ) {
 			$dataAttrName = "data-$attrName";
 			$formattedValue = $this->processedArgs[$attrName];
-			if( !is_string(  $formattedValue ) ) {
+			if ( !is_string( $formattedValue ) ) {
 				$formattedValue = \FormatJson::encode( $formattedValue );
 			}
 			$attribs[$dataAttrName] = $formattedValue;
@@ -255,9 +253,9 @@ abstract class MultiUploadTagBase {
 	/**
 	 * @return \Message
 	 */
-	protected abstract function  getDefaultLabelMessage();
+	abstract protected function  getDefaultLabelMessage();
 
-	protected abstract function makeHTML();
+	abstract protected function makeHTML();
 
 	protected function getDefaultArgs() {
 		return [
