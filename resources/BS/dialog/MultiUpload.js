@@ -2,7 +2,6 @@ Ext.define( 'BS.dialog.MultiUpload', {
 	extend: 'MWExt.Dialog',
 	requires: [ 'BS.form.UploadDetailsFieldSet', 'BS.action.APIUpload', 'BS.dialog.BatchActions' ],
 	title: mw.message('bs-upload-multiuploaddialogtitle').plain(),
-	closeAction: 'destroy',
 	maxWidth: Ext.getBody().getViewSize().width,
 	cls: "bs-upload-multiupload-dlg",
 	bodyCls: "bs-upload-multiupload-dlg-body",

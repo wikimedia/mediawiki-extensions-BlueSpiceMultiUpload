@@ -5,11 +5,17 @@
 			Ext.require('BS.dialog.MultiUpload', function(){
 				var mud = new BS.dialog.MultiUpload( {
 						id: 'bs-multiupload-dlg',
+						// Destroing this dialog has some side effects: i.E. event
+						// handlers can not be triggerd anymore. see: ERM:12920
+						// and ERM:14557
+						closeAction: 'destroy',
 						uploader: upldr,
 						files: files,
 						uploadPanelCfg: upldr.settings.uploadPanelCfg
 				});
 				mud.show();
+				// This events will not work anymore, because the dialog was
+				// destroyed. see: ERM:12920 and ERM:14557
 				mud.on( 'uploadcomplete', upldr.settings.onUploadDialogUploadComplete );
 				mud.on( 'cancel', function() { upldr.disableBrowse(false); } );
 			});
