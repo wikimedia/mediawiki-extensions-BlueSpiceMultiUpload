@@ -20,7 +20,7 @@ Ext.define('BS.action.APIUpload', {
 			text: '',
 			comment: '',
 			ignorewarnings: 1,
-			warch: 1
+			watch: 1
 		};
 
 		this.callParent( arguments );
@@ -58,10 +58,14 @@ Ext.define('BS.action.APIUpload', {
 		if( file.id === this.file.id ) {
 			var response = Ext.decode( xhr.response ); //MW API response object
 			if( response.error ) {
+				// this block is for backward compatability
 				this.actionStatus = BS.action.Base.STATUS_ERROR;
 				this.dfd.reject( this, response.error );
-			}
-			else {
+			} else if ( response.errors ) {
+				this.actionStatus = BS.action.Base.STATUS_ERROR;
+				this.actionErrors = response.errors;
+				this.dfd.reject( this, response.errors );
+			} else {
 				this.actionStatus = BS.action.Base.STATUS_DONE;
 				this.dfd.resolve( this, response.upload.result );
 			}
