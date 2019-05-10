@@ -23,6 +23,7 @@
 					comment: '',
 					text: '',
 					ignorewarnings: 1,
+					errorformat: 'html',
 					watch: 1
 				},
 				unique_names: true,
