@@ -6,6 +6,7 @@
 	},
 	"bs-upload-multiupload-link-label": "파일 업로드",
 	"bs-upload-multiuploaddialogtitle": "파일 업로드",
+	"bs-deferred-action-apiupload-description": "\"$1\"을(를) \"$2\"(으)로 업로드",
 	"bs-uploader-mime-images-label": "그림",
 	"bs-uploader-mime-files-label": "파일",
 	"bs-uploader-drop-or-click": "업로드를 위해 파일을 여기에 끌어놓거나 파일 선택을 위해 클릭하십시오",
