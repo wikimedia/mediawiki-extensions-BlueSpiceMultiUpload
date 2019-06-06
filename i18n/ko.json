@@ -4,6 +4,7 @@
 			"Ykhwong"
 		]
 	},
+	"bs-multiupload-desc": "파일 일괄 업로드를 제공합니다",
 	"bs-upload-multiupload-link-label": "파일 업로드",
 	"bs-upload-multiuploaddialogtitle": "파일 업로드",
 	"bs-deferred-action-apiupload-description": "\"$1\"을(를) \"$2\"(으)로 업로드",
