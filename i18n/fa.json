@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis"
+		]
+	},
+	"bs-uploader-mime-images-label": "تصویرها",
+	"bs-uploader-mime-files-label": "پرونده‌ها",
+	"bs-multiupload-tag-button-label-default": "بارگذاری پرونده"
+}
