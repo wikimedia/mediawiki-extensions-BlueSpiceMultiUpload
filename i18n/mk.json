@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Подигни податотеки",
+	"bs-upload-multiuploaddialogtitle": "Подигни податотеки",
+	"bs-deferred-action-apiupload-description": "Подигање на „$1“ како „$2“",
+	"bs-uploader-mime-images-label": "Слики",
+	"bs-uploader-mime-files-label": "Податотеки",
+	"bs-multiupload-tag-button-label-default": "Подигни податотека",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Неважечка категорија|Неважечки категории}}: „$2“"
+}

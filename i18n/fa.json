@@ -4,6 +4,9 @@
 			"FarsiNevis"
 		]
 	},
+	"bs-upload-multiupload-link-label": "بارگذاری پرونده‌ها",
+	"bs-upload-multiuploaddialogtitle": "بارگذاری پرونده‌ها",
+	"bs-deferred-action-apiupload-description": "بارگذاری «$1» به «$2»",
 	"bs-uploader-mime-images-label": "تصویرها",
 	"bs-uploader-mime-files-label": "پرونده‌ها",
 	"bs-multiupload-tag-button-label-default": "بارگذاری پرونده"
