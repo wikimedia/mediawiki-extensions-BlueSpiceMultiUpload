@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Alŝuti dosierojn",
+	"bs-upload-multiuploaddialogtitle": "Alŝuti dosierojn",
+	"bs-uploader-mime-images-label": "Bildoj",
+	"bs-uploader-mime-files-label": "Dosieroj",
+	"bs-multiupload-tag-button-label-default": "Alŝuti dosieron"
+}

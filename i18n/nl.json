@@ -5,7 +5,10 @@
 		]
 	},
 	"bs-multiupload-desc": "Biedt de mogelijkheid om meerdere bestanden tegelijk te uploaden",
+	"bs-upload-multiupload-link-label": "Bestanden uploaden",
 	"bs-upload-multiuploaddialogtitle": "Bestanden uploaden",
 	"bs-uploader-mime-images-label": "Afbeeldingen",
-	"bs-uploader-mime-files-label": "Bestanden"
+	"bs-uploader-mime-files-label": "Bestanden",
+	"bs-multiupload-tag-button-label-default": "Bestand uploaden",
+	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\""
 }
