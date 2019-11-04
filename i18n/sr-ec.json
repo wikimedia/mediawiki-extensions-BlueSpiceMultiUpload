@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obsuser"
+			"Obsuser",
+			"Zoranzoki21"
 		]
 	},
-	"bs-upload-multiupload-link-label": "Отпреми датотеке"
+	"bs-multiupload-desc": "Омогућава групно отпремање датотека",
+	"bs-upload-multiupload-link-label": "Отпреми датотеке",
+	"bs-upload-multiuploaddialogtitle": "Отпреми датотеке",
+	"bs-deferred-action-apiupload-description": "Отпремање \"$1\" на \"$2\"",
+	"bs-uploader-mime-images-label": "Слике",
+	"bs-uploader-mime-files-label": "Датотеке",
+	"bs-multiupload-tag-button-label-default": "Отпреми датотеку",
+	"bs-multiupload-tag-hint-reloadpage": "Страница ће се сада поново учитати"
 }
