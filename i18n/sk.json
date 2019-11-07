@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lexected"
+			"Lexected",
+			"Vlad5250"
 		]
 	},
 	"bs-upload-multiuploaddialogtitle": "Nahrať súbory",
-	"bs-uploader-mime-files-label": "Súbory"
+	"bs-uploader-mime-files-label": "Súbory",
+	"bs-upload-multiupload-link-label": "Nahrať súbory",
+	"bs-uploader-mime-images-label": "Obrázky",
+	"bs-multiupload-tag-button-label-default": "Nahrať súbor"
 }
