@@ -2,7 +2,7 @@
 
 namespace BlueSpice\MultiUpload\Tag;
 
-use MediaWiki\MediaWikiServices;
+use BlueSpice\Services;
 
 abstract class MultiUploadTagBase {
 
@@ -57,7 +57,7 @@ abstract class MultiUploadTagBase {
 	protected $processedArgs = [];
 
 	/*
-	 * MediaWikiServices
+	 * Services
 	 */
 	protected $services = null;
 
@@ -94,7 +94,7 @@ abstract class MultiUploadTagBase {
 		$this->parser = $parser;
 		$this->frame = $frame;
 
-		$this->services = MediaWikiServices::getInstance();
+		$this->services = Services::getInstance();
 		$this->context = \RequestContext::getMain();
 	}
 
