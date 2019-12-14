@@ -2,9 +2,15 @@
 
 namespace BlueSpice\MultiUpload\Tag;
 
+use Message;
+
 class MultiUploadButton extends MultiUploadTagBase {
 	const TAG_NAME = 'multiuploadbutton';
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function makeHTML() {
 		return \Html::rawElement(
 			'button',
@@ -14,6 +20,10 @@ class MultiUploadButton extends MultiUploadTagBase {
 		);
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	protected function getCssClasses() {
 		return array_merge(
 			parent::getCssClasses(),
@@ -25,6 +35,10 @@ class MultiUploadButton extends MultiUploadTagBase {
 		);
 	}
 
+	/**
+	 *
+	 * @return Message
+	 */
 	protected function getDefaultLabelMessage() {
 		return wfMessage( 'bs-multiupload-tag-button-label-default' );
 	}
