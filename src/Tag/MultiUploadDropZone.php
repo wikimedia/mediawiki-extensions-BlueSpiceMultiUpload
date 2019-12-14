@@ -2,6 +2,8 @@
 
 namespace BlueSpice\MultiUpload\Tag;
 
+use Message;
+
 class MultiUploadDropZone extends MultiUploadTagBase {
 	const TAG_NAME = 'multiuploaddropzone';
 
@@ -9,6 +11,10 @@ class MultiUploadDropZone extends MultiUploadTagBase {
 	const ATTR_WIDTH = 'width';
 	const ATTR_HEIGHT = 'height';
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getDefaultArgs() {
 		$args = parent::getDefaultArgs();
 		$args[static::ATTR_HEIGHT] = '100px';
@@ -25,6 +31,10 @@ class MultiUploadDropZone extends MultiUploadTagBase {
 			= \Sanitizer::checkCss( $this->args[static::ATTR_WIDTH] );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function makeHTML() {
 		$innerHtml = \Html::rawElement(
 			'div',
@@ -39,6 +49,10 @@ class MultiUploadDropZone extends MultiUploadTagBase {
 		);
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function makeAttribs() {
 		$attribs = parent::makeAttribs();
 
@@ -49,6 +63,10 @@ class MultiUploadDropZone extends MultiUploadTagBase {
 		return $attribs;
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	protected function getCssClasses() {
 		return array_merge(
 			parent::getCssClasses(),
@@ -58,6 +76,10 @@ class MultiUploadDropZone extends MultiUploadTagBase {
 		);
 	}
 
+	/**
+	 *
+	 * @return Message
+	 */
 	protected function getDefaultLabelMessage() {
 		return wfMessage( 'bs-multiupload-tag-dropzone-label-default' );
 	}

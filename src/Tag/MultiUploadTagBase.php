@@ -98,6 +98,10 @@ abstract class MultiUploadTagBase {
 		$this->context = \RequestContext::getMain();
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function handle() {
 		$this->processInputAndArguments();
 		if ( $this->hasErrors() ) {
@@ -119,7 +123,9 @@ abstract class MultiUploadTagBase {
 		if ( !empty( $this->args[static::ATTR_LABEL] ) ) {
 			$this->processedArgs[static::ATTR_LABEL] = $this->args[static::ATTR_LABEL];
 		}
-		$this->processedArgs[static::ATTR_RELOADPAGE] = (bool)\FormatJson::decode( $this->args[static::ATTR_RELOADPAGE] );
+		$this->processedArgs[static::ATTR_RELOADPAGE] = (bool)\FormatJson::decode(
+			$this->args[static::ATTR_RELOADPAGE]
+		);
 		$this->processedArgs[static::ATTR_CLASS] = explode( ' ', $this->args[static::ATTR_CLASS] );
 
 		$this->setPrefixArg( static::ATTR_DEFAULT_FILENAMEPREFIX );
@@ -135,10 +141,18 @@ abstract class MultiUploadTagBase {
 			$this->args[static::ATTR_DEFAULT_LICENCE];
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function hasErrors() {
 		return !empty( $this->errors );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function outputErrors() {
 		$output = [];
 		foreach ( $this->errors as $errorId => $errorMessage ) {
@@ -152,6 +166,10 @@ abstract class MultiUploadTagBase {
 		return implode( "\n", $output );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function doHandle() {
 		$this->parser->getOutput()->addModuleStyles( 'ext.bluespice.multiUpload.tags.styles' );
 		$this->parser->getOutput()->addModules( 'ext.bluespice.multiUpload.tags' );
@@ -159,6 +177,11 @@ abstract class MultiUploadTagBase {
 		return $this->makeHTML();
 	}
 
+	/**
+	 *
+	 * @param string $key
+	 * @return null
+	 */
 	protected function setPrefixArg( $key ) {
 		$this->processedArgs[$key] = '';
 		if ( empty( $this->args[$key] ) ) {
@@ -177,6 +200,11 @@ abstract class MultiUploadTagBase {
 		$this->processedArgs[$key] = $prefix;
 	}
 
+	/**
+	 *
+	 * @param string $key
+	 * @return null
+	 */
 	protected function setCategoriesArg( $key ) {
 		$this->processedArgs[$key] = [];
 		if ( empty( $this->args[$key] ) ) {
@@ -209,6 +237,10 @@ abstract class MultiUploadTagBase {
 		$this->processedArgs[$key] = $categoryRecords;
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function makeAttribs() {
 		$classes = array_merge(
 			$this->getCssClasses(),
@@ -231,6 +263,10 @@ abstract class MultiUploadTagBase {
 		return $attribs;
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	protected function getDataAttributeNames() {
 		return [
 			static::ATTR_DEFAULT_FILENAMEPREFIX,
@@ -244,6 +280,10 @@ abstract class MultiUploadTagBase {
 		];
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	protected function getCssClasses() {
 		return [
 			'bs-multiupload-tag'
@@ -255,8 +295,15 @@ abstract class MultiUploadTagBase {
 	 */
 	abstract protected function  getDefaultLabelMessage();
 
+	/**
+	 * @return string
+	 */
 	abstract protected function makeHTML();
 
+	/**
+	 *
+	 * @return array
+	 */
 	protected function getDefaultArgs() {
 		return [
 			static::ATTR_LABEL => '',
