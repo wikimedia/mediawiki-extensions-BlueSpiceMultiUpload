@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-multiupload-desc": "Dosyaların toplu olarak yüklenmesini sağlar",
+	"bs-upload-multiupload-link-label": "Dosyaları yükle",
+	"bs-upload-multiuploaddialogtitle": "Dosyaları yükle",
+	"bs-deferred-action-apiupload-description": "\"$1\" olarak \"$2\" yükle",
+	"bs-uploader-mime-images-label": "Resimler",
+	"bs-uploader-mime-files-label": "Dosyalar",
+	"bs-uploader-drop-or-click": "Dosyayı buraya sürükleyip bırakın veya yüklenecek dosyayı seçmek için tıklayın",
+	"bs-multiupload-tag-button-desc": "Wikiye önceden yapılandırılmış yüklemelere izin veren bir düğme gösterir",
+	"bs-multiupload-tag-button-label-default": "Dosya yükle",
+	"bs-multiupload-tag-dropzone-desc": "Wikiye önceden yapılandırılmış yüklemelere izin veren bir boşaltma noktası gösterir",
+	"bs-multiupload-tag-dropzone-label-default": "Yüklemeye başlamak için bir dosyayı buraya sürükleyip bırakın",
+	"bs-multiupload-tag-error-invalid prefix": "Geçersiz dosya adı öneki \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "Geçersiz {{PLURAL:$1|kategori|kategori}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Sayfa şimdi yeniden yüklenecek"
+}
