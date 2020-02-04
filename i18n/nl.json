@@ -10,5 +10,6 @@
 	"bs-uploader-mime-images-label": "Afbeeldingen",
 	"bs-uploader-mime-files-label": "Bestanden",
 	"bs-multiupload-tag-button-label-default": "Bestand uploaden",
-	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\""
+	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\"",
+	"bs-multiupload-tag-error-invalid prefix": "Onjuist bestandsvoorvoegsel \"$1\"!"
 }
