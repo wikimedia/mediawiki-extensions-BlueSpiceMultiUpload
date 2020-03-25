@@ -35,7 +35,7 @@ $(function(){
 	} );
 
 	//Overwrite default behavior of toolbox link to Special:Upload
-	var $specialUploadLI = $('#t-upload');
+	var $specialUploadLI = $( '#t-upload, .bs-featured-actions #new-file' );
 	if( $specialUploadLI.length !== 0 ) {
 		$specialUploadLI.find('a').attr( 'href', '' );
 		bs.uploader.bindTo( $specialUploadLI[0] );
