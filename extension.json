@@ -89,7 +89,8 @@
 				"bs-upload-details"
 			],
 			"dependencies": [
-				"ext.bluespice.extjs"
+				"ext.bluespice.extjs",
+				"mediawiki.user"
 			]
 		},
 		"ext.bluespice.multiUpload.MobileFrontend": {
