@@ -24,7 +24,7 @@
 					text: '',
 					ignorewarnings: 1,
 					errorformat: 'html',
-					watch: 1
+					watchlist: 'preferences'
 				},
 				unique_names: true,
 				flash_swf_url: bs.em.paths.get( 'BlueSpiceMultiUpload' ) + '/resources/lib/plupload/Moxie.swf',

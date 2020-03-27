@@ -66,9 +66,9 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 
 		this.cbxWatch = new Ext.form.field.Checkbox({
 			boxLabel: mw.message('bs-upload-uploadwatchthislabel').plain(),
-			id: this.getId()+'watch_page',
-			name: 'watch',
-			checked: true
+			id: this.getId() + 'watch_page',
+			name: 'watchlist',
+			checked: mw.user.options.get( 'watchuploads' )
 		});
 
 		this.cbxWarnings = new Ext.form.field.Checkbox({
@@ -79,14 +79,14 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 		});
 
 		this.bsCategories = new BS.form.CategoryBoxSelect({
-			id: this.getId()+'categories',
+			id: this.getId() + 'categories',
 			name: 'categories',
 			fieldLabel: mw.message('bs-upload-categories').plain()
 		});
 		this.bsCategories .setValue( this.defaultCategories );
 
 		this.items = this.makeItems();
-		this.callParent(arguments);
+		this.callParent( arguments );
 	},
 
 	makeItems: function() {
@@ -123,7 +123,7 @@ Ext.define( 'BS.form.UploadDetailsFieldSet', {
 		return {
 			fileNamePrefix: this.implicitFileNamePrefix + this.defaultFileNamePrefix,
 			text: desc,
-			watch: this.cbxWatch.getValue() ? 1: 0,
+			watchlist: this.cbxWatch.getValue() ? 'watch' : 'nochange',
 			ignorewarnings: this.cbxWarnings.getValue() ? 1 : 0
 		};
 	}
