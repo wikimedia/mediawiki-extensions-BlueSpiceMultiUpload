@@ -15,13 +15,13 @@ Ext.define('BS.action.APIUpload', {
 			throw new Error( 'Parameter "file" is required!' );
 		}
 
-		this.uploadApiMeta = {
+		this.uploadApiMeta = $.extend( {
 			filename: '',
 			text: '',
 			comment: '',
 			ignorewarnings: 1,
-			watch: 1
-		};
+			watchlist: 'preferences'
+		}, cfg.uploadApiMeta );
 
 		this.callParent( arguments );
 
@@ -78,7 +78,7 @@ Ext.define('BS.action.APIUpload', {
 			mpp = Ext.apply( mpp, this.uploadApiMeta );
 
 			this.fireEvent( 'beforeuploadfile', this, mpp );
-			
+
 			upldr.setOption('multipart_params', mpp);
 		}
 	},
