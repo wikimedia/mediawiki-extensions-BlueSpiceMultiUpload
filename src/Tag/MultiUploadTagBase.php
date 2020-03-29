@@ -3,6 +3,7 @@
 namespace BlueSpice\MultiUpload\Tag;
 
 use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 
 abstract class MultiUploadTagBase {
 
@@ -190,7 +191,8 @@ abstract class MultiUploadTagBase {
 
 		$prefix = $this->args[$key];
 		$dummyTitle = $prefix . '_dummy.png';
-		$dummyFile = \RepoGroup::singleton()->getLocalRepo()->newFile( $dummyTitle );
+		$dummyFile = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
+			->newFile( $dummyTitle );
 
 		if ( $dummyFile === null ) {
 			$this->errors[$key] = wfMessage( 'bs-multiupload-tag-error-invalid prefix', $prefix );
