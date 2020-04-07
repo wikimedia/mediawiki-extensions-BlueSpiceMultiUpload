@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robert Vogel <vogel@hallowelt.com>",
-			"Metalhead64"
+			"Metalhead64",
+			"Robert Vogel <vogel@hallowelt.com>"
 		]
 	},
 	"bs-multiupload-desc": "Ermöglicht das Hochladen von mehreren Dateien",
