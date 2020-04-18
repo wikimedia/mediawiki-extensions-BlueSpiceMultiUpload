@@ -17,15 +17,15 @@ class BlueSpiceMultiUploadHooks {
 	/**
 	 * Add menu item to MobileFrontend
 	 * @param string $section
-	 * @param \MobileFrontend\MenuBuilder &$menu
+	 * @param MediaWiki\Minerva\Menu\Group &$group
 	 * @return bool
 	 */
-	public static function onMobileMenu( $section, &$menu ) {
+	public static function onMobileMenu( $section, &$group ) {
 		if ( $section !== 'discovery' ) {
 			return true;
 		}
 
-		$menu->insert( 'bsmultiupload' )
+		$group->insert( 'bsmultiupload' )
 			->addComponent(
 					wfMessage( 'bs-upload-multiupload-link-label' )->escaped(),
 					'#',
