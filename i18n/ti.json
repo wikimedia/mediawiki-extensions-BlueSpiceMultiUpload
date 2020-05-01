@@ -4,6 +4,9 @@
 			"Joanmp17"
 		]
 	},
+	"bs-upload-multiupload-link-label": "ፋይላት ጸዓነ",
+	"bs-upload-multiuploaddialogtitle": "ፋይላት ጸዓነ",
 	"bs-uploader-mime-images-label": "ስእልታት",
-	"bs-uploader-mime-files-label": "ፋይላት"
+	"bs-uploader-mime-files-label": "ፋይላት",
+	"bs-multiupload-tag-button-label-default": "ፋይል ጸዓነ"
 }
