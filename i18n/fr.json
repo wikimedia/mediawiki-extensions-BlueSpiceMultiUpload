@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Thibaut120094",
 			"Urhixidur",
-			"Wladek92",
-			"Thibaut120094"
+			"Wladek92"
 		]
 	},
 	"bs-multiupload-desc": "Fournit le téléchargement par lot des fichiers",

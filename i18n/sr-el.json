@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-multiupload-desc": "Omogućava grupno otpremanje datoteka",
 	"bs-upload-multiupload-link-label": "Otpremi datoteke",
 	"bs-upload-multiuploaddialogtitle": "Otpremi datoteke",
