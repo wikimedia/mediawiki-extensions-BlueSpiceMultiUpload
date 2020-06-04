@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Sarah Bernabei"
+			"Sarah Bernabei",
+			"ValeJappo"
 		]
 	},
+	"bs-upload-multiupload-link-label": "Carica file",
 	"bs-upload-multiuploaddialogtitle": "Carica file",
 	"bs-uploader-mime-images-label": "Immagini",
 	"bs-uploader-mime-files-label": "File",
