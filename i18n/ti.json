@@ -6,7 +6,7 @@
 	},
 	"bs-uploader-mime-images-label": "ስእልታት",
 	"bs-uploader-mime-files-label": "ፋይላት",
-	"bs-upload-multiupload-link-label": "ፋይላት ጸዓነ",
-	"bs-upload-multiuploaddialogtitle": "ፋይላት ጸዓነ",
-	"bs-multiupload-tag-button-label-default": "ፋይል ጸዓነ"
+	"bs-upload-multiupload-link-label": "ፋይላት ጸዓን",
+	"bs-upload-multiuploaddialogtitle": "ፋይላት ጸዓን",
+	"bs-multiupload-tag-button-label-default": "ፋይል ጸዓን"
 }
