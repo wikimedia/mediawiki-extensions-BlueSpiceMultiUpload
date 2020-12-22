@@ -4,5 +4,7 @@
 			"Abbas dhothar"
 		]
 	},
-	"bs-uploader-mime-images-label": "تصویراں"
+	"bs-upload-multiuploaddialogtitle": "فائل چڑھاؤ",
+	"bs-uploader-mime-images-label": "تصویراں",
+	"bs-multiupload-tag-button-label-default": "فائل چڑھاؤ"
 }
