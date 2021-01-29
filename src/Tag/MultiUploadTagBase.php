@@ -294,7 +294,7 @@ abstract class MultiUploadTagBase {
 	/**
 	 * @return \Message
 	 */
-	abstract protected function  getDefaultLabelMessage();
+	abstract protected function getDefaultLabelMessage();
 
 	/**
 	 * @return string
