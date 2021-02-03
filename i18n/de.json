@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Metalhead64",
 			"Robert Vogel <vogel@hallowelt.com>",
-			"Metalhead64"
+			"Umherirrender"
 		]
 	},
 	"bs-multiupload-desc": "Ermöglicht das Hochladen von mehreren Dateien",
@@ -16,7 +17,7 @@
 	"bs-multiupload-tag-button-label-default": "Datei hochladen",
 	"bs-multiupload-tag-dropzone-desc": "Zeigt eine Dropzone an, die den vorkonfigurierten Upload von Dateien ermöglicht",
 	"bs-multiupload-tag-dropzone-label-default": "Ziehe eine Datei auf diese Fläche um das Hochladen zu starten",
-	"bs-multiupload-tag-error-invalid prefix": "Ungültiger Dateinamenspräfix \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "Ungültige {{PLURAL:$1|Kategorie|Kategorien}} \"$2\"!",
+	"bs-multiupload-tag-error-invalid prefix": "Ungültiger Dateinamenspräfix „$1“!",
+	"bs-multiupload-tag-error-invalid-categories": "Ungültige {{PLURAL:$1|Kategorie|Kategorien}}: „$2“",
 	"bs-multiupload-tag-hint-reloadpage": "Die Seite wird nun neu geladen"
 }

@@ -2,14 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Thibaut120094",
 			"Urhixidur",
-			"Wladek92",
-			"Thibaut120094"
+			"Wladek92"
 		]
 	},
 	"bs-multiupload-desc": "Fournit le téléchargement par lot des fichiers",
 	"bs-upload-multiupload-link-label": "Téléverser les fichiers",
-	"bs-upload-multiuploaddialogtitle": "Télécharger des fichiers",
+	"bs-upload-multiuploaddialogtitle": "Téléverser des fichiers",
 	"bs-deferred-action-apiupload-description": "Téléchargement de « $1 » vers « $2 »",
 	"bs-uploader-mime-images-label": "Images",
 	"bs-uploader-mime-files-label": "Fichiers",
