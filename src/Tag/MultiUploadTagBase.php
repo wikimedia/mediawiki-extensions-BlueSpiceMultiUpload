@@ -180,7 +180,6 @@ abstract class MultiUploadTagBase {
 	/**
 	 *
 	 * @param string $key
-	 * @return null
 	 */
 	protected function setPrefixArg( $key ) {
 		$this->processedArgs[$key] = '';
@@ -204,7 +203,6 @@ abstract class MultiUploadTagBase {
 	/**
 	 *
 	 * @param string $key
-	 * @return null
 	 */
 	protected function setCategoriesArg( $key ) {
 		$this->processedArgs[$key] = [];
