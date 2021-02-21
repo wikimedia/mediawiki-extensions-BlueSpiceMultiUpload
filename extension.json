@@ -31,7 +31,7 @@
 		}
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\MultiUpload\\" : "src/"
+		"BlueSpice\\MultiUpload\\": "src/"
 	},
 	"AutoloadClasses": {
 		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
