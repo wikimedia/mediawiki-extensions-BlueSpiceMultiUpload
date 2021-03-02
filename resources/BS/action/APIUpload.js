@@ -62,6 +62,11 @@ Ext.define('BS.action.APIUpload', {
 				this.actionStatus = BS.action.Base.STATUS_ERROR;
 				this.dfd.reject( this, response.error );
 			} else if ( response.errors ) {
+				if( response.errors[0].code === 'fileexists-no-change' ) {
+					this.actionStatus = BS.action.Base.STATUS_DONE;
+					this.dfd.resolve( this, {} );
+					return;
+				}
 				this.actionStatus = BS.action.Base.STATUS_ERROR;
 				this.actionErrors = response.errors;
 				this.dfd.reject( this, response.errors );
