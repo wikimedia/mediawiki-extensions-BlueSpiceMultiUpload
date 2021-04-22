@@ -60,9 +60,6 @@ Ext.define( 'BS.dialog.MultiUpload', {
 			value = value.replace(/^.*?([^\\\/:]*?\.[a-z0-9]+)$/img, "$1");
 			value = fileNamePrefix + value;
 			value = value.replace(/\s/g, "_");
-			if( mw.config.get('bsIsWindows') ) {
-				value = value.replace(/[^\u0000-\u007F]/gmi, ''); //Replace Non-ASCII
-			}
 			meta = Ext.Object.merge(
 				{}, //make a copy!
 				{
