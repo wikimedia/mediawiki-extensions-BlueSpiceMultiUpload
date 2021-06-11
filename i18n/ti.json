@@ -4,9 +4,9 @@
 			"Joanmp17"
 		]
 	},
-	"bs-upload-multiupload-link-label": "ፋይላት ጸዓን",
-	"bs-upload-multiuploaddialogtitle": "ፋይላት ጸዓን",
+	"bs-upload-multiupload-link-label": "ፋይላት ጸዓን/ስቐል",
+	"bs-upload-multiuploaddialogtitle": "ፋይላት ጸዓን/ስቐል",
 	"bs-uploader-mime-images-label": "ስእልታት",
 	"bs-uploader-mime-files-label": "ፋይላት",
-	"bs-multiupload-tag-button-label-default": "ፋይል ጸዓን"
+	"bs-multiupload-tag-button-label-default": "ፋይል ጸዓን/ስቐል"
 }

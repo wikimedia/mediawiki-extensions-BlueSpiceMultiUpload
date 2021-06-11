@@ -13,5 +13,7 @@
 	"bs-uploader-mime-images-label": "Слике",
 	"bs-uploader-mime-files-label": "Датотеке",
 	"bs-multiupload-tag-button-label-default": "Отпреми датотеку",
-	"bs-multiupload-tag-hint-reloadpage": "Страница ће се сада поново учитати"
+	"bs-multiupload-tag-hint-reloadpage": "Страница ће се сада поново учитати",
+	"bs-uploader-drop-or-click": "Превуците и отпустите датотеку овде или кликните да одаберете датотеку за отпремање",
+	"bs-multiupload-tag-dropzone-label-default": "Превуците и отпустите датотеку овде да започнете отпремање"
 }
