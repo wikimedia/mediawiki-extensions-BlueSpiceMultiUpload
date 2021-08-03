@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
 	"bs-multiupload-desc": "Biedt de mogelijkheid om meerdere bestanden tegelijk te uploaden",
@@ -11,5 +12,6 @@
 	"bs-uploader-mime-files-label": "Bestanden",
 	"bs-multiupload-tag-button-label-default": "Bestand uploaden",
 	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\"",
-	"bs-multiupload-tag-error-invalid prefix": "Onjuist bestandsvoorvoegsel \"$1\"!"
+	"bs-multiupload-tag-error-invalid prefix": "Onjuist bestandsvoorvoegsel \"$1\"!",
+	"bs-multiupload-tag-hint-reloadpage": "De pagina wordt nu opnieuw geladen"
 }
