@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-multiupload-desc": "Forni le possibilitate de incargar files per lot",
+	"bs-upload-multiupload-link-label": "Incargar files",
+	"bs-upload-multiuploaddialogtitle": "Incargar files",
+	"bs-deferred-action-apiupload-description": "Incargamento de \"$1\" a \"$2\"",
+	"bs-uploader-mime-images-label": "Imagines",
+	"bs-uploader-mime-files-label": "Files",
+	"bs-uploader-drop-or-click": "Trahe e depone hic le file o clicca pro seliger le file a incargar",
+	"bs-multiupload-tag-button-desc": "Monstra un button que permitte incargamentos preconfigurate al wiki",
+	"bs-multiupload-tag-button-label-default": "Incargar file",
+	"bs-multiupload-tag-dropzone-desc": "Monstra un area pro traher e deponer que permitte incargamentos preconfigurate al wiki",
+	"bs-multiupload-tag-dropzone-label-default": "Trahe e depone hic un file pro comenciar le incargamento",
+	"bs-multiupload-tag-error-invalid prefix": "Prefixo de nomine de file \"$1\" non valide.",
+	"bs-multiupload-tag-error-invalid-categories": "Categoria{{PLURAL:$1||s}} invalide: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Le pagina essera ora recargate"
+}
