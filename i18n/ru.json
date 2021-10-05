@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Facenapalm",
 			"Kareyac",
 			"Movses",
@@ -16,5 +17,7 @@
 	"bs-uploader-mime-files-label": "Файлы",
 	"bs-uploader-drop-or-click": "Перетащите файл или щёлкните его, чтобы выбрать для загрузки",
 	"bs-multiupload-tag-button-label-default": "Загрузить файл",
+	"bs-multiupload-tag-error-invalid prefix": "Недействительный префикс имени файла «$1»!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Неверная категория|Недействительные категории}}: «$2»",
 	"bs-multiupload-tag-hint-reloadpage": "Сейчас страница будет перезагружена"
 }
