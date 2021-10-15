@@ -7,18 +7,18 @@ use MediaWiki\MediaWikiServices;
 abstract class MultiUploadTagBase {
 
 	/* Config parameters for 'BS.form.UploadDetailsFieldSet' ans 'BS.panel.Upload' */
-	const ATTR_DEFAULT_FILENAMEPREFIX = 'defaultfilenameprefix';
-	const ATTR_DEFAULT_CATEGORIES = 'defaultcategories';
-	const ATTR_DEFAULT_DESCRIPTION = 'defaultdescription';
-	const ATTR_DEFAULT_LICENCE = 'defaultlicence';
-	const ATTR_IMPLICIT_FILENAMEPREFIX = 'implicitfilenameprefix';
-	const ATTR_IMPLICIT_CATEGORIES = 'implicitcategories';
-	const ATTR_IMPLICIT_DESCRIPTION = 'implicitdescription';
+	public const ATTR_DEFAULT_FILENAMEPREFIX = 'defaultfilenameprefix';
+	public const ATTR_DEFAULT_CATEGORIES = 'defaultcategories';
+	public const ATTR_DEFAULT_DESCRIPTION = 'defaultdescription';
+	public const ATTR_DEFAULT_LICENCE = 'defaultlicence';
+	public const ATTR_IMPLICIT_FILENAMEPREFIX = 'implicitfilenameprefix';
+	public const ATTR_IMPLICIT_CATEGORIES = 'implicitcategories';
+	public const ATTR_IMPLICIT_DESCRIPTION = 'implicitdescription';
 
 	/* Element specific */
-	const ATTR_LABEL = 'label';
-	const ATTR_RELOADPAGE = 'reloadpage';
-	const ATTR_CLASS = 'class';
+	public const ATTR_LABEL = 'label';
+	public const ATTR_RELOADPAGE = 'reloadpage';
+	public const ATTR_CLASS = 'class';
 
 	/**
 	 *

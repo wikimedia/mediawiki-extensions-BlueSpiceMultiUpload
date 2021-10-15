@@ -5,7 +5,7 @@ namespace BlueSpice\MultiUpload\Tag;
 use Message;
 
 class MultiUploadButton extends MultiUploadTagBase {
-	const TAG_NAME = 'multiuploadbutton';
+	public const TAG_NAME = 'multiuploadbutton';
 
 	/**
 	 *

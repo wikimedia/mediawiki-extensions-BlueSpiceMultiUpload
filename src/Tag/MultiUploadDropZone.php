@@ -5,11 +5,11 @@ namespace BlueSpice\MultiUpload\Tag;
 use Message;
 
 class MultiUploadDropZone extends MultiUploadTagBase {
-	const TAG_NAME = 'multiuploaddropzone';
+	public const TAG_NAME = 'multiuploaddropzone';
 
 	/* Element specific */
-	const ATTR_WIDTH = 'width';
-	const ATTR_HEIGHT = 'height';
+	public const ATTR_WIDTH = 'width';
+	public const ATTR_HEIGHT = 'height';
 
 	/**
 	 *
