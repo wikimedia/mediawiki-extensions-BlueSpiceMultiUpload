@@ -56,8 +56,8 @@ abstract class MultiUploadTagBase {
 	 */
 	protected $processedArgs = [];
 
-	/*
-	 * MediaWikiServices
+	/**
+	 * @var MediaWikiServices
 	 */
 	protected $services = null;
 
