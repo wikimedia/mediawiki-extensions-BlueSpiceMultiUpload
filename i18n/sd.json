@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Indus Asia"
+			"Indus Asia",
+			"Mehtab ahmed"
 		]
 	},
 	"bs-upload-multiuploaddialogtitle": "فائيل چاڙهيو",
-	"bs-uploader-mime-images-label": "عڪس",
+	"bs-uploader-mime-images-label": "عڪسَ",
 	"bs-uploader-mime-files-label": "فائيلَ"
 }
