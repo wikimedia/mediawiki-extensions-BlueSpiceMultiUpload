@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"McDutchie",
 			"Romaine"
 		]
 	},
@@ -13,5 +14,10 @@
 	"bs-multiupload-tag-button-label-default": "Bestand uploaden",
 	"bs-multiupload-tag-error-invalid prefix": "Onjuist bestandsvoorvoegsel \"$1\"!",
 	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "De pagina wordt nu opnieuw geladen"
+	"bs-multiupload-tag-hint-reloadpage": "De pagina wordt nu opnieuw geladen",
+	"bs-deferred-action-apiupload-description": "Upload van \"$1\" naar \"$2\"",
+	"bs-uploader-drop-or-click": "Sleep het te uploaden bestand hierheen of klik om het te selecteren",
+	"bs-multiupload-tag-button-desc": "Toont een knop die vooraf geconfigureerde uploads naar de wiki toestaat",
+	"bs-multiupload-tag-dropzone-desc": "Toont een kader voor slepen en neerzetten dat vooraf geconfigureerde uploads naar de wiki toestaat",
+	"bs-multiupload-tag-dropzone-label-default": "Sleep een bestand hierheen om te beginnen met uploaden"
 }
