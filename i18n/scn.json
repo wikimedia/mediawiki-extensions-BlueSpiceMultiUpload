@@ -5,5 +5,8 @@
 		]
 	},
 	"bs-uploader-mime-images-label": "Mmàggini",
-	"bs-uploader-mime-files-label": "File"
+	"bs-uploader-mime-files-label": "File",
+	"bs-multiupload-tag-button-label-default": "Càrrica nu file",
+	"bs-multiupload-tag-error-invalid prefix": "Lu prifissu dû nomu dû file \"$1\" nun è vàliddu!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Catigurìa nun vàlidda|Catigurìi nun vàliddi}}: \"$2\""
 }
