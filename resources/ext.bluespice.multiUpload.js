@@ -1,5 +1,5 @@
-$(function(){
-	$(document).on( 'BSInsertFileInsertBaseDialogAfterInit', function(e, sender, items ){
+(function( mw, $, bs, d, undefined ){
+	$( d ).on( 'BSInsertFileInsertBaseDialogAfterInit', function( e, sender, items ){
 		sender.btnUpload.clearListeners();
 		sender.btnUpload.on('afterrender', function( button ) {
 			bs.uploader.bindTo( button.getEl().dom, {
@@ -20,7 +20,7 @@ $(function(){
 		});
 	} );
 
-	$(document).on( 'BS.grid.FileRepo.initComponent', function(e, sender, items ){
+	$( d ).on( 'BS.grid.FileRepo.initComponent', function( e, sender, items ){
 		if( !sender.btnUpload ) {
 			return;
 		}
@@ -62,5 +62,35 @@ $(function(){
 				bs.uploader.bindTo( this );
 			}
 		});
+
+		// Catch all links with url of Special:Upload and bind BlueSpiceMultiUpload
+		__modifySpecialUploadUrl();
+
+		// Create instance of MutationObserver to recognize changes in dom (e.g. dialog)
+		var mutationObserver = new MutationObserver( function( mutations ) {
+			mutations.forEach( function( mutation ) {
+				__modifySpecialUploadUrl();
+			});
+		});
+
+		// eigentliche Observierung starten und Zielnode und Konfiguration übergeben
+		mutationObserver.observe(
+			document.querySelector( 'body' ),
+			{
+				childList: true,
+				attributes: false,
+				characterData: false
+			}
+		);
 	});
-});
+
+	function __modifySpecialUploadUrl() {
+		var specialUpload = mw.Title.newFromText( 'Upload', bs.ns.NS_SPECIAL );
+		$( 'a' ).each( function() {
+			if ( $( this ).attr( 'href' ) === specialUpload.getUrl() ) {
+				$( this ).attr( 'href', '' );
+				bs.uploader.bindTo( this );
+			}
+		} );
+	}
+})( mediaWiki, jQuery, blueSpice, document );
