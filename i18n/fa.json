@@ -11,5 +11,6 @@
 	"bs-uploader-mime-images-label": "تصویرها",
 	"bs-uploader-mime-files-label": "پرونده‌ها",
 	"bs-multiupload-tag-button-label-default": "بارگذاری پرونده",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|ردهٔ|رده‌های}} نامعتبر: «$2»",
 	"bs-multiupload-tag-hint-reloadpage": "صفحه مجدداً بارگذاری خواهد شد"
 }
