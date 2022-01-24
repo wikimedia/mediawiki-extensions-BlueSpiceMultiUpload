@@ -85,12 +85,21 @@
 	});
 
 	function __modifySpecialUploadUrl() {
-		var specialUpload = mw.Title.newFromText( 'Upload', bs.ns.NS_SPECIAL );
-		$( 'a' ).each( function() {
-			if ( $( this ).attr( 'href' ) === specialUpload.getUrl() ) {
-				$( this ).attr( 'href', '' );
-				bs.uploader.bindTo( this );
+		var title = null;
+		for ( var i in mw.config.get( 'bsgMultiUploadTitles', {} ) ) {
+			title = mw.Title.newFromText(
+				mw.config.get( 'bsgMultiUploadTitles', {} )[i].title,
+				mw.config.get( 'bsgMultiUploadTitles', {} )[i].ns
+			);
+			if ( !title ) {
+				continue;
 			}
-		} );
+			$( 'a' ).each( function() {
+				if ( $( this ).attr( 'href' ) === title.getUrl() ) {
+					$( this ).attr( 'href', '' );
+					bs.uploader.bindTo( this );
+				}
+			} );
+		}
 	}
 })( mediaWiki, jQuery, blueSpice, document );
