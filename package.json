@@ -1,4 +1,5 @@
 {
+	"name": "BlueSpiceMultiUpload",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
