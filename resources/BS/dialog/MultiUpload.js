@@ -10,6 +10,7 @@ Ext.define( 'BS.dialog.MultiUpload', {
 	uploadPanelCfg: {},
 	uploader: null, //pluploader.Upload
 	files: [],
+	targetPage: mw.Title.newFromText( mw.config.get( 'wgPageName' ) ),
 
 	initComponent: function() {
 		this.callParent( arguments );
