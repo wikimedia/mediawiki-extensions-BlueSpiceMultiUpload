@@ -171,8 +171,8 @@ abstract class MultiUploadTagBase {
 	 * @return string
 	 */
 	protected function doHandle() {
-		$this->parser->getOutput()->addModuleStyles( 'ext.bluespice.multiUpload.tags.styles' );
-		$this->parser->getOutput()->addModules( 'ext.bluespice.multiUpload.tags' );
+		$this->parser->getOutput()->addModuleStyles( [ 'ext.bluespice.multiUpload.tags.styles' ] );
+		$this->parser->getOutput()->addModules( [ 'ext.bluespice.multiUpload.tags' ] );
 
 		return $this->makeHTML();
 	}
