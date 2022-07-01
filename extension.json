@@ -131,7 +131,7 @@
 	},
 	"config_prefix": "bsg",
 	"config": {
-		"MUPPreventIntegrateMultiUpload": {
+		"MultiUploadIntegrateWithUploadLink": {
 			"value": false
 		}
 	},
