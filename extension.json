@@ -129,5 +129,11 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceMultiUpload/resources"
 	},
+	"config_prefix": "bsg",
+	"config": {
+		"MultiUploadIntegrateWithUploadLink": {
+			"value": false
+		}
+	},
 	"manifest_version": 2
 }
