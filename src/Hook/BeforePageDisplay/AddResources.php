@@ -12,7 +12,7 @@ class AddResources extends \BlueSpice\Hook\BeforePageDisplay {
 		$titles = [];
 		$upload = $this->getServices()->getSpecialPageFactory()->getPage( 'Upload' );
 		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
-		if ( $upload && !$config->get( 'MUPPreventIntegrateMultiUpload' ) ) {
+		if ( $upload && !$config->get( 'MultiUploadIntegrateWithUploadLink' ) ) {
 			$title = $this->getServices()->getSpecialPageFactory()->getLocalNameFor( 'Upload' );
 			$titles[] = [
 				'ns' => NS_SPECIAL,
