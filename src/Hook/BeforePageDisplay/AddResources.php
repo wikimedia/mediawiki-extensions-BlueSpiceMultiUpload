@@ -2,6 +2,8 @@
 
 namespace BlueSpice\MultiUpload\Hook\BeforePageDisplay;
 
+use MediaWiki\MediaWikiServices;
+
 class AddResources extends \BlueSpice\Hook\BeforePageDisplay {
 
 	protected function doProcess() {
