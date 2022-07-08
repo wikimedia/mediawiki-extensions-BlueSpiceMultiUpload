@@ -132,7 +132,7 @@
 	"config_prefix": "bsg",
 	"config": {
 		"MultiUploadIntegrateWithUploadLink": {
-			"value": false
+			"value": true
 		}
 	},
 	"manifest_version": 2
