@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"GpieroMW",
 			"Sarah Bernabei",
 			"ValeJappo"
 		]
@@ -17,5 +18,6 @@
 	"bs-multiupload-tag-dropzone-label-default": "Trascina qui un file per iniziare il caricamento",
 	"bs-multiupload-tag-error-invalid prefix": "Il prefisso del nome di archiviazione $1 non è valido!",
 	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria non valida|Categorie non valide}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "La pagina verrà ricaricata ora"
+	"bs-multiupload-tag-hint-reloadpage": "La pagina verrà ricaricata ora",
+	"bs-deferred-action-apiupload-description": "Caricare da \" $1 \" a \" $2 \""
 }
