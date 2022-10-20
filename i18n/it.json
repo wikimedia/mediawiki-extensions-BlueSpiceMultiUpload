@@ -3,11 +3,13 @@
 		"authors": [
 			"Beta16",
 			"Sarah Bernabei",
-			"ValeJappo"
+			"ValeJappo",
+			"GpieroMW"
 		]
 	},
 	"bs-upload-multiupload-link-label": "Carica file",
 	"bs-upload-multiuploaddialogtitle": "Carica file",
+	"bs-deferred-action-apiupload-description": "Caricare da \" $1 \" a \" $2 \"",
 	"bs-uploader-mime-images-label": "Immagini",
 	"bs-uploader-mime-files-label": "File",
 	"bs-uploader-drop-or-click": "Trascina qui il file o fai clic per selezionare il file da caricare",
