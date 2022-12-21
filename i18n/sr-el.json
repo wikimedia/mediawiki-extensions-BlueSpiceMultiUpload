@@ -8,6 +8,8 @@
 	"bs-deferred-action-apiupload-description": "Otpremanje \"$1\" na \"$2\"",
 	"bs-uploader-mime-images-label": "Slike",
 	"bs-uploader-mime-files-label": "Datoteke",
+	"bs-uploader-drop-or-click": "Prevucite i otpustite datoteku ovde ili kliknite da odaberete datoteku za otpremanje",
 	"bs-multiupload-tag-button-label-default": "Otpremi datoteku",
+	"bs-multiupload-tag-dropzone-label-default": "Prevucite i otpustite datoteku ovde da započnete otpremanje",
 	"bs-multiupload-tag-hint-reloadpage": "Stranica će se sada ponovo učitati"
 }
