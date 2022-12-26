@@ -4,6 +4,7 @@
 			"Eleassar"
 		]
 	},
+	"bs-uploader-mime-images-label": "Slike",
 	"bs-uploader-drop-or-click": "Datoteke povlecite in izpustite tukaj ali pa kliknite polje in izberite datoteko za prispevanje",
 	"bs-multiupload-tag-dropzone-label-default": "Za začetek nalaganja datoteko povlecite sem in jo izpustite"
 }
