@@ -4,7 +4,18 @@
 			"Eleassar"
 		]
 	},
+	"bs-multiupload-desc": "Omogoča paketno nalaganje datotek",
+	"bs-upload-multiupload-link-label": "Naloži datoteke",
+	"bs-upload-multiuploaddialogtitle": "Naloži datoteke",
+	"bs-deferred-action-apiupload-description": "Nalaganje od »$1« od »$2«",
 	"bs-uploader-mime-images-label": "Slike",
+	"bs-uploader-mime-files-label": "Datoteke",
 	"bs-uploader-drop-or-click": "Datoteke povlecite in izpustite tukaj ali pa kliknite polje in izberite datoteko za prispevanje",
-	"bs-multiupload-tag-dropzone-label-default": "Za začetek nalaganja datoteko povlecite sem in jo izpustite"
+	"bs-multiupload-tag-button-desc": "Prikaže gumb, ki omogoča vnaprej konfigurirano nalaganje v viki",
+	"bs-multiupload-tag-button-label-default": "Naloži datoteko",
+	"bs-multiupload-tag-dropzone-desc": "Prikaže spustno območje, ki omogoča vnaprej konfigurirano nalaganje v viki",
+	"bs-multiupload-tag-dropzone-label-default": "Za začetek nalaganja datoteko povlecite sem in jo izpustite",
+	"bs-multiupload-tag-error-invalid prefix": "Neveljavna predpona imena datoteke »$1«!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Neveljavna kategorija|Neveljavni kategoriji|Neveljavne kategorije}}: »$2«",
+	"bs-multiupload-tag-hint-reloadpage": "Stran se bo zdaj znova naložila"
 }
