@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Dataje nahrać",
+	"bs-upload-multiuploaddialogtitle": "Dataje nahrać",
+	"bs-deferred-action-apiupload-description": "„$1“ na „$2“ nahrać",
+	"bs-uploader-mime-images-label": "Wobrazy",
+	"bs-uploader-mime-files-label": "Dataje",
+	"bs-uploader-drop-or-click": "Ćehń dataju sem a ju wotpołož abo klikń za wubranje dataje.",
+	"bs-multiupload-tag-button-label-default": "Dataju nahrać",
+	"bs-multiupload-tag-dropzone-label-default": "Ćehń dataju sem zo by so nahrawanje započało",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Njepłaćiwa kategorija|Njepłaćiwej kategoriji|Njepłaćiwe kategorije}}: „$2“",
+	"bs-multiupload-tag-hint-reloadpage": "Strona so nětko znowa začita"
+}
