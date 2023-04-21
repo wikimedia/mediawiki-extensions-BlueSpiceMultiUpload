@@ -5,7 +5,16 @@
 			"Nokeoo"
 		]
 	},
+	"bs-upload-multiupload-link-label": "Įkelti failus",
 	"bs-upload-multiuploaddialogtitle": "Įkelti failus",
+	"bs-deferred-action-apiupload-description": "„$1“ įkėlimas į „$2“",
 	"bs-uploader-mime-images-label": "Paveikslėliai",
-	"bs-uploader-mime-files-label": "Failai"
+	"bs-uploader-mime-files-label": "Failai",
+	"bs-uploader-drop-or-click": "Nuvilkite failą čia arba spustelėkite, kad pasirinktumėte failą, kurį norite įkelti",
+	"bs-multiupload-tag-button-desc": "Rodo mygtuką, leidžiantį iš anksto sukonfigūruoti įkėlimą į vikį",
+	"bs-multiupload-tag-button-label-default": "Įkelti failą",
+	"bs-multiupload-tag-dropzone-desc": "Rodoma zona, leidžianti iš anksto sukonfigūruoti įkėlimą į vikį",
+	"bs-multiupload-tag-dropzone-label-default": "Nuvilkite failą čia, kad pradėtumėte įkėlimą",
+	"bs-multiupload-tag-error-invalid-categories": "Negalima {{PLURAL:$1|kategorija|kategorijos}}: „$2“",
+	"bs-multiupload-tag-hint-reloadpage": "Dabar puslapis bus įkeltas iš naujo"
 }
