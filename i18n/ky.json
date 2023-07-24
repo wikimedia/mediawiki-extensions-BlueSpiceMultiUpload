@@ -4,5 +4,6 @@
 			"Bosogo"
 		]
 	},
-	"bs-uploader-mime-files-label": "Файлдар"
+	"bs-uploader-mime-files-label": "Файлдар",
+	"bs-uploader-mime-images-label": "Сүрөттөр"
 }
