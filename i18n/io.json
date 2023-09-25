@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"JSantos"
+			"JSantos",
+			"Joao Xavier"
 		]
 	},
-	"bs-uploader-mime-files-label": "Arkivi"
+	"bs-uploader-mime-files-label": "Arkivi",
+	"bs-uploader-mime-images-label": "Imaji"
 }
