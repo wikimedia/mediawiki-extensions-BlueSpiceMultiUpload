@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Чуйаха файлаш",
+	"bs-upload-multiuploaddialogtitle": "Чуйаха файлаш",
+	"bs-deferred-action-apiupload-description": "«$2» кху «$1» чуйаккхар",
+	"bs-uploader-mime-images-label": "Суьрташ",
+	"bs-uploader-mime-files-label": "Файлаш",
+	"bs-multiupload-tag-button-label-default": "Чуйаккха файл"
+}
