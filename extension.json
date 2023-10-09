@@ -40,7 +40,6 @@
 		"BeforePageDisplay": "\\BlueSpice\\MultiUpload\\Hook\\BeforePageDisplay\\AddResources::callback",
 		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
 		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
-		"BSInsertMagicAjaxGetData": "BlueSpice\\MultiUpload\\Hook\\BSInsertMagicAjaxGetData\\AddTags::callback",
 		"ParserFirstCallInit": "BlueSpice\\MultiUpload\\Hook\\ParserFirstCallInit\\AddTags::callback"
 	},
 	"ResourceModules": {
