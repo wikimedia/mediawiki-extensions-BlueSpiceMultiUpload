@@ -10,7 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "Ανέβασμα αρχείων",
 	"bs-uploader-mime-images-label": "Εικόνες",
 	"bs-uploader-mime-files-label": "Αρχεία",
-	"bs-multiupload-tag-button-desc": "Εμφανίζει ένα κουμπί που επιτρέπει προρυθμισμένες μεταφορτώσεις στο βίκι",
 	"bs-multiupload-tag-button-label-default": "Ανέβασμα αρχείου",
 	"bs-multiupload-tag-error-invalid prefix": "Άκυρο πρόθεμα αρχείου \"$1\"",
 	"bs-multiupload-tag-error-invalid-categories": "Άκυρες {{PLURAL:$1|κατηγορία|κατηγορίες}}: \"$2\"",

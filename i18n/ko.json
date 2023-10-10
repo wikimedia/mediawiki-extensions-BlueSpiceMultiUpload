@@ -11,7 +11,6 @@
 	"bs-uploader-mime-images-label": "그림",
 	"bs-uploader-mime-files-label": "파일",
 	"bs-uploader-drop-or-click": "업로드를 위해 파일을 여기에 끌어놓거나 파일 선택을 위해 클릭하십시오",
-	"bs-multiupload-tag-button-desc": "위키에 미리 구성된 업로드를 허용하는 버튼을 표시합니다",
 	"bs-multiupload-tag-button-label-default": "파일 업로드",
 	"bs-multiupload-tag-dropzone-label-default": "업로드를 시작하려면 여기에 파일을 끌어 놓으십시오",
 	"bs-multiupload-tag-error-invalid prefix": "유효하지 않은 파일 이름 확장자 \"$1\"입니다!",
