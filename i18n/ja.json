@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"LaMagiaaa",
 			"Otokoume"
 		]
 	},
@@ -9,5 +10,6 @@
 	"bs-upload-multiuploaddialogtitle": "ファイルをアップロード",
 	"bs-deferred-action-apiupload-description": "「$1」を「$2」にアップロードします",
 	"bs-uploader-mime-images-label": "画像",
-	"bs-uploader-mime-files-label": "ファイル"
+	"bs-uploader-mime-files-label": "ファイル",
+	"bs-multiupload-tag-error-invalid-categories": "無効な{{PLURAL:$1|カテゴリ}}：「$2」"
 }
