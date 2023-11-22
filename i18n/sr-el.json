@@ -11,5 +11,7 @@
 	"bs-uploader-drop-or-click": "Prevucite i otpustite datoteku ovde ili kliknite da odaberete datoteku za otpremanje",
 	"bs-multiupload-tag-button-label-default": "Otpremi datoteku",
 	"bs-multiupload-tag-dropzone-label-default": "Prevucite i otpustite datoteku ovde da započnete otpremanje",
+	"bs-multiupload-tag-error-invalid prefix": "Nevažeći prefiks za naziv datoteke \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Nevažeća kategorija|Nevažeće kategorije}}: \"$2\"",
 	"bs-multiupload-tag-hint-reloadpage": "Stranica će se sada ponovo učitati"
 }
