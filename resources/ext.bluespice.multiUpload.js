@@ -85,11 +85,12 @@
 	});
 
 	function __modifySpecialUploadUrl() {
+		var multiUploadTitles = require( './config.json' ).multiUploadTitles;
 		var title = null;
-		for ( var i in mw.config.get( 'bsgMultiUploadTitles', {} ) ) {
+		for ( var i in multiUploadTitles ) {
 			title = mw.Title.newFromText(
-				mw.config.get( 'bsgMultiUploadTitles', {} )[i].title,
-				mw.config.get( 'bsgMultiUploadTitles', {} )[i].ns
+				multiUploadTitles[i].title,
+				multiUploadTitles[i].ns
 			);
 			if ( !title ) {
 				continue;
