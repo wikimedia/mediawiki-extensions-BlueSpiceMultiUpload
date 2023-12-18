@@ -44,8 +44,12 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.multiUpload": {
-			"scripts": [
-				"ext.bluespice.multiUpload.js"
+			"packageFiles": [
+				"ext.bluespice.multiUpload.js",
+				{
+					"name": "config.json",
+					"callback": "BlueSpice\\MultiUpload\\ClientConfig::makeConfigJson"
+				}
 			],
 			"dependencies": [
 				"ext.bluespice.uploader.bootstrap"
