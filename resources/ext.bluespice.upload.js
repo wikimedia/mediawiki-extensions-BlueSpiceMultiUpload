@@ -5,10 +5,10 @@
 				throw new Error( 'Parameter "browse_button" is required!' );
 			}
 
-			var bsMaxUploadSize = mw.config.get('bsMaxUploadSize');
-			var lowerMaxUploadSize = bsMaxUploadSize.php > bsMaxUploadSize.mediawiki
-				? bsMaxUploadSize.mediawiki
-				: bsMaxUploadSize.php;
+			var maxUploadSize = mw.config.get('bsgMaxUploadSize');
+			var lowerMaxUploadSize = maxUploadSize.php > maxUploadSize.mediawiki
+				? maxUploadSize.mediawiki
+				: maxUploadSize.php;
 
 			var defaultCfg = {
 				runtimes : 'html5,silverlight,flash,html4',
@@ -35,11 +35,11 @@
 					mime_types: [
 						{
 							title : mw.message('bs-uploader-mime-images-label').plain(),
-							extensions : mw.config.get( 'bsImageExtensions' ).join(',')
+							extensions : mw.config.get( 'bsgImageExtensions' ).join(',')
 						},
 						{
 							title : mw.message('bs-uploader-mime-files-label').plain(),
-							extensions : mw.config.get( 'bsFileExtensions' ).join(',')
+							extensions : mw.config.get( 'bsgFileExtensions' ).join(',')
 						}
 					]
 				},
