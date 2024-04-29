@@ -6,18 +6,18 @@
 			"Umherirrender"
 		]
 	},
-	"bs-multiupload-desc": "Ermöglicht das Hochladen von mehreren Dateien",
+	"bs-multiupload-desc": "Erm\u00f6glicht das Hochladen von mehreren Dateien",
 	"bs-upload-multiupload-link-label": "Dateien hochladen",
 	"bs-upload-multiuploaddialogtitle": "Dateien hochladen",
-	"bs-deferred-action-apiupload-description": "Hochladen von „$1“ nach „$2“",
+	"bs-deferred-action-apiupload-description": "Hochladen von \u201e$1\u201c nach \u201e$2\u201c",
 	"bs-uploader-mime-images-label": "Bilder",
 	"bs-uploader-mime-files-label": "Dateien",
-	"bs-uploader-drop-or-click": "Ziehe die Datei hierher und leg sie ab oder klicke, um die Datei zum Hochladen auszuwählen.",
-	"bs-multiupload-tag-button-desc": "Zeigt eine Schaltfläche an, die den vorkonfigurierten Upload von Dateien ermöglicht",
+	"bs-uploader-drop-or-click": "Ziehe die Datei hierher und leg sie ab oder klicke, um die Datei zum Hochladen auszuw\u00e4hlen.",
+	"bs-multiupload-tag-button-desc": "Zeigt eine Schaltfl\u00e4che an, die den vorkonfigurierten Upload von Dateien erm\u00f6glicht",
 	"bs-multiupload-tag-button-label-default": "Datei hochladen",
-	"bs-multiupload-tag-dropzone-desc": "Zeigt eine Dropzone an, die den vorkonfigurierten Upload von Dateien ermöglicht",
-	"bs-multiupload-tag-dropzone-label-default": "Ziehe eine Datei auf diese Fläche um das Hochladen zu starten",
-	"bs-multiupload-tag-error-invalid prefix": "Ungültiger Dateinamenspräfix „$1“!",
-	"bs-multiupload-tag-error-invalid-categories": "Ungültige {{PLURAL:$1|Kategorie|Kategorien}}: „$2“",
+	"bs-multiupload-tag-dropzone-desc": "Zeigt eine Dropzone an, die den vorkonfigurierten Upload von Dateien erm\u00f6glicht",
+	"bs-multiupload-tag-dropzone-label-default": "Ziehe eine Datei auf diese Fl\u00e4che um das Hochladen zu starten",
+	"bs-multiupload-tag-error-invalid prefix": "Ung\u00fcltiger Dateinamenspr\u00e4fix \u201e$1\u201c!",
+	"bs-multiupload-tag-error-invalid-categories": "Ung\u00fcltige {{PLURAL:$1|Kategorie|Kategorien}}: \u201e$2\u201c",
 	"bs-multiupload-tag-hint-reloadpage": "Die Seite wird nun neu geladen"
 }

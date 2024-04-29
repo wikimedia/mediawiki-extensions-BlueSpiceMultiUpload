@@ -2,20 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
-			"আফতাবুজ্জামান"
+			"\u0986\u09ab\u09a4\u09be\u09ac\u09c1\u099c\u09cd\u099c\u09be\u09ae\u09be\u09a8"
 		]
 	},
-	"bs-multiupload-desc": "গণভাবে ফাইল আপলোড করা প্রদান করে",
-	"bs-upload-multiupload-link-label": "ফাইল আপলোড করুন",
-	"bs-upload-multiuploaddialogtitle": "ফাইল আপলোড করুন",
-	"bs-deferred-action-apiupload-description": "\"$2\"-এ \"$1\"-এর আপলোড",
-	"bs-uploader-mime-images-label": "চিত্র",
-	"bs-uploader-mime-files-label": "ফাইল",
-	"bs-uploader-drop-or-click": "আপলোডের জন্য এখানে ফাইলটি টেনে এনে ছেড়ে দিন বা ফাইল নির্বাচন করতে ক্লিক করুন",
-	"bs-multiupload-tag-button-desc": "একটি বোতাম প্রদর্শন করে যা উইকিতে পূর্ব-কনফিগার করা আপলোডগুলিকে অনুমতি দেয়",
-	"bs-multiupload-tag-button-label-default": "ফাইল আপলোড করুন",
-	"bs-multiupload-tag-dropzone-desc": "একটি ড্রপজোন প্রদর্শন করে যা উইকিতে পূর্ব-কনফিগার করা আপলোডগুলিকে অনুমতি দেয়",
-	"bs-multiupload-tag-dropzone-label-default": "আপলোড শুরু করতে একটি ফাইল টেনে এনে এখানে ছাড়ুন",
-	"bs-multiupload-tag-error-invalid-categories": "অবৈধ {{PLURAL:$1|বিষয়শ্রেণী}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "পাতাটি এখন পুনঃলোড করা হবে"
+	"bs-multiupload-desc": "\u0997\u09a3\u09ad\u09be\u09ac\u09c7 \u09ab\u09be\u0987\u09b2 \u0986\u09aa\u09b2\u09cb\u09a1 \u0995\u09b0\u09be \u09aa\u09cd\u09b0\u09a6\u09be\u09a8 \u0995\u09b0\u09c7",
+	"bs-upload-multiupload-link-label": "\u09ab\u09be\u0987\u09b2 \u0986\u09aa\u09b2\u09cb\u09a1 \u0995\u09b0\u09c1\u09a8",
+	"bs-upload-multiuploaddialogtitle": "\u09ab\u09be\u0987\u09b2 \u0986\u09aa\u09b2\u09cb\u09a1 \u0995\u09b0\u09c1\u09a8",
+	"bs-deferred-action-apiupload-description": "\"$2\"-\u098f \"$1\"-\u098f\u09b0 \u0986\u09aa\u09b2\u09cb\u09a1",
+	"bs-uploader-mime-images-label": "\u099a\u09bf\u09a4\u09cd\u09b0",
+	"bs-uploader-mime-files-label": "\u09ab\u09be\u0987\u09b2",
+	"bs-uploader-drop-or-click": "\u0986\u09aa\u09b2\u09cb\u09a1\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0996\u09be\u09a8\u09c7 \u09ab\u09be\u0987\u09b2\u099f\u09bf \u099f\u09c7\u09a8\u09c7 \u098f\u09a8\u09c7 \u099b\u09c7\u09a1\u09bc\u09c7 \u09a6\u09bf\u09a8 \u09ac\u09be \u09ab\u09be\u0987\u09b2 \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u099a\u09a8 \u0995\u09b0\u09a4\u09c7 \u0995\u09cd\u09b2\u09bf\u0995 \u0995\u09b0\u09c1\u09a8",
+	"bs-multiupload-tag-button-desc": "\u098f\u0995\u099f\u09bf \u09ac\u09cb\u09a4\u09be\u09ae \u09aa\u09cd\u09b0\u09a6\u09b0\u09cd\u09b6\u09a8 \u0995\u09b0\u09c7 \u09af\u09be \u0989\u0987\u0995\u09bf\u09a4\u09c7 \u09aa\u09c2\u09b0\u09cd\u09ac-\u0995\u09a8\u09ab\u09bf\u0997\u09be\u09b0 \u0995\u09b0\u09be \u0986\u09aa\u09b2\u09cb\u09a1\u0997\u09c1\u09b2\u09bf\u0995\u09c7 \u0985\u09a8\u09c1\u09ae\u09a4\u09bf \u09a6\u09c7\u09af\u09bc",
+	"bs-multiupload-tag-button-label-default": "\u09ab\u09be\u0987\u09b2 \u0986\u09aa\u09b2\u09cb\u09a1 \u0995\u09b0\u09c1\u09a8",
+	"bs-multiupload-tag-dropzone-desc": "\u098f\u0995\u099f\u09bf \u09a1\u09cd\u09b0\u09aa\u099c\u09cb\u09a8 \u09aa\u09cd\u09b0\u09a6\u09b0\u09cd\u09b6\u09a8 \u0995\u09b0\u09c7 \u09af\u09be \u0989\u0987\u0995\u09bf\u09a4\u09c7 \u09aa\u09c2\u09b0\u09cd\u09ac-\u0995\u09a8\u09ab\u09bf\u0997\u09be\u09b0 \u0995\u09b0\u09be \u0986\u09aa\u09b2\u09cb\u09a1\u0997\u09c1\u09b2\u09bf\u0995\u09c7 \u0985\u09a8\u09c1\u09ae\u09a4\u09bf \u09a6\u09c7\u09af\u09bc",
+	"bs-multiupload-tag-dropzone-label-default": "\u0986\u09aa\u09b2\u09cb\u09a1 \u09b6\u09c1\u09b0\u09c1 \u0995\u09b0\u09a4\u09c7 \u098f\u0995\u099f\u09bf \u09ab\u09be\u0987\u09b2 \u099f\u09c7\u09a8\u09c7 \u098f\u09a8\u09c7 \u098f\u0996\u09be\u09a8\u09c7 \u099b\u09be\u09a1\u09bc\u09c1\u09a8",
+	"bs-multiupload-tag-error-invalid-categories": "\u0985\u09ac\u09c8\u09a7 {{PLURAL:$1|\u09ac\u09bf\u09b7\u09af\u09bc\u09b6\u09cd\u09b0\u09c7\u09a3\u09c0}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "\u09aa\u09be\u09a4\u09be\u099f\u09bf \u098f\u0996\u09a8 \u09aa\u09c1\u09a8\u0983\u09b2\u09cb\u09a1 \u0995\u09b0\u09be \u09b9\u09ac\u09c7"
 }

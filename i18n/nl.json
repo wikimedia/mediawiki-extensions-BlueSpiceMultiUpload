@@ -18,6 +18,6 @@
 	"bs-multiupload-tag-dropzone-desc": "Toont een kader voor slepen en neerzetten dat vooraf geconfigureerde uploads naar de wiki toestaat",
 	"bs-multiupload-tag-dropzone-label-default": "Sleep een bestand hierheen om te beginnen met uploaden",
 	"bs-multiupload-tag-error-invalid prefix": "Onjuist bestandsvoorvoegsel \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorieën}}: \"$2\"",
+	"bs-multiupload-tag-error-invalid-categories": "Ongeldige {{PLURAL:$1|categorie|categorie\u00ebn}}: \"$2\"",
 	"bs-multiupload-tag-hint-reloadpage": "De pagina wordt nu opnieuw geladen"
 }
