@@ -8,18 +8,18 @@
 			"Wladek92"
 		]
 	},
-	"bs-multiupload-desc": "Fournit le téléchargement par lot des fichiers",
-	"bs-upload-multiupload-link-label": "Téléverser les fichiers",
-	"bs-upload-multiuploaddialogtitle": "Téléverser des fichiers",
-	"bs-deferred-action-apiupload-description": "Téléchargement de « $1 » vers « $2 »",
+	"bs-multiupload-desc": "Fournit le t\u00e9l\u00e9chargement par lot des fichiers",
+	"bs-upload-multiupload-link-label": "T\u00e9l\u00e9verser les fichiers",
+	"bs-upload-multiuploaddialogtitle": "T\u00e9l\u00e9verser des fichiers",
+	"bs-deferred-action-apiupload-description": "T\u00e9l\u00e9chargement de \u00ab\u202f$1\u202f\u00bb vers \u00ab\u202f$2\u202f\u00bb",
 	"bs-uploader-mime-images-label": "Images",
 	"bs-uploader-mime-files-label": "Fichiers",
-	"bs-uploader-drop-or-click": "Glisser et déposer le fichier ici ou cliquer pour sélectionner le fichier à téléverser",
-	"bs-multiupload-tag-button-desc": "Affiche un bouton qui permet des téléversements préconfigurés vers le wiki",
-	"bs-multiupload-tag-button-label-default": "Téléverser le fichier",
-	"bs-multiupload-tag-dropzone-desc": "Affiche une zone de dépôt qui permet des téléversements préconfigurés vers le wiki",
-	"bs-multiupload-tag-dropzone-label-default": "Faites glisser et déposez un fichier ici pour commencer le téléversement",
-	"bs-multiupload-tag-error-invalid prefix": "Préfixe de nom de fichier « $1 » non valide !",
-	"bs-multiupload-tag-error-invalid-categories": "Catégorie{{PLURAL:$1||s}} non valide{{PLURAL:$1||s}} : « $2 »",
-	"bs-multiupload-tag-hint-reloadpage": "La page va maintenant être rechargée"
+	"bs-uploader-drop-or-click": "Glisser et d\u00e9poser le fichier ici ou cliquer pour s\u00e9lectionner le fichier \u00e0 t\u00e9l\u00e9verser",
+	"bs-multiupload-tag-button-desc": "Affiche un bouton qui permet des t\u00e9l\u00e9versements pr\u00e9configur\u00e9s vers le wiki",
+	"bs-multiupload-tag-button-label-default": "T\u00e9l\u00e9verser le fichier",
+	"bs-multiupload-tag-dropzone-desc": "Affiche une zone de d\u00e9p\u00f4t qui permet des t\u00e9l\u00e9versements pr\u00e9configur\u00e9s vers le wiki",
+	"bs-multiupload-tag-dropzone-label-default": "Faites glisser et d\u00e9posez un fichier ici pour commencer le t\u00e9l\u00e9versement",
+	"bs-multiupload-tag-error-invalid prefix": "Pr\u00e9fixe de nom de fichier \u00ab\u202f$1\u202f\u00bb non valide\u202f!",
+	"bs-multiupload-tag-error-invalid-categories": "Cat\u00e9gorie{{PLURAL:$1||s}} non valide{{PLURAL:$1||s}}\u202f: \u00ab\u202f$2\u202f\u00bb",
+	"bs-multiupload-tag-hint-reloadpage": "La page va maintenant \u00eatre recharg\u00e9e"
 }

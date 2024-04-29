@@ -4,18 +4,18 @@
 			"Eleassar"
 		]
 	},
-	"bs-multiupload-desc": "Omogoča paketno nalaganje datotek",
-	"bs-upload-multiupload-link-label": "Naloži datoteke",
-	"bs-upload-multiuploaddialogtitle": "Naloži datoteke",
-	"bs-deferred-action-apiupload-description": "Nalaganje od »$1« od »$2«",
+	"bs-multiupload-desc": "Omogo\u010da paketno nalaganje datotek",
+	"bs-upload-multiupload-link-label": "Nalo\u017ei datoteke",
+	"bs-upload-multiuploaddialogtitle": "Nalo\u017ei datoteke",
+	"bs-deferred-action-apiupload-description": "Nalaganje od \u00bb$1\u00ab od \u00bb$2\u00ab",
 	"bs-uploader-mime-images-label": "Slike",
 	"bs-uploader-mime-files-label": "Datoteke",
 	"bs-uploader-drop-or-click": "Datoteke povlecite in izpustite tukaj ali pa kliknite polje in izberite datoteko za prispevanje",
-	"bs-multiupload-tag-button-desc": "Prikaže gumb, ki omogoča vnaprej konfigurirano nalaganje v viki",
-	"bs-multiupload-tag-button-label-default": "Naloži datoteko",
-	"bs-multiupload-tag-dropzone-desc": "Prikaže spustno območje, ki omogoča vnaprej konfigurirano nalaganje v viki",
-	"bs-multiupload-tag-dropzone-label-default": "Za začetek nalaganja datoteko povlecite sem in jo izpustite",
-	"bs-multiupload-tag-error-invalid prefix": "Neveljavna predpona imena datoteke »$1«!",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Neveljavna kategorija|Neveljavni kategoriji|Neveljavne kategorije}}: »$2«",
-	"bs-multiupload-tag-hint-reloadpage": "Stran se bo zdaj znova naložila"
+	"bs-multiupload-tag-button-desc": "Prika\u017ee gumb, ki omogo\u010da vnaprej konfigurirano nalaganje v viki",
+	"bs-multiupload-tag-button-label-default": "Nalo\u017ei datoteko",
+	"bs-multiupload-tag-dropzone-desc": "Prika\u017ee spustno obmo\u010dje, ki omogo\u010da vnaprej konfigurirano nalaganje v viki",
+	"bs-multiupload-tag-dropzone-label-default": "Za za\u010detek nalaganja datoteko povlecite sem in jo izpustite",
+	"bs-multiupload-tag-error-invalid prefix": "Neveljavna predpona imena datoteke \u00bb$1\u00ab!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Neveljavna kategorija|Neveljavni kategoriji|Neveljavne kategorije}}: \u00bb$2\u00ab",
+	"bs-multiupload-tag-hint-reloadpage": "Stran se bo zdaj znova nalo\u017eila"
 }

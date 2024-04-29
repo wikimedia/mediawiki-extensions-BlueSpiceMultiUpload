@@ -4,18 +4,18 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"bs-multiupload-desc": "Dosyaların toplu olarak yüklenmesini sağlar",
-	"bs-upload-multiupload-link-label": "Dosya yükle",
-	"bs-upload-multiuploaddialogtitle": "Dosya yükle",
-	"bs-deferred-action-apiupload-description": "\"$1\" dosya kaynağı olarak \"$2\" dosya hedefi yükle",
+	"bs-multiupload-desc": "Dosyalar\u0131n toplu olarak y\u00fcklenmesini sa\u011flar",
+	"bs-upload-multiupload-link-label": "Dosya y\u00fckle",
+	"bs-upload-multiuploaddialogtitle": "Dosya y\u00fckle",
+	"bs-deferred-action-apiupload-description": "\"$1\" dosya kayna\u011f\u0131 olarak \"$2\" dosya hedefi y\u00fckle",
 	"bs-uploader-mime-images-label": "Resimler",
 	"bs-uploader-mime-files-label": "Dosyalar",
-	"bs-uploader-drop-or-click": "Dosyayı buraya sürükleyip bırakın veya yüklenecek dosyayı seçmek için tıklayın",
-	"bs-multiupload-tag-button-desc": "Vikiye önceden yapılandırılmış yüklemelere izin veren bir düğme gösterir",
-	"bs-multiupload-tag-button-label-default": "Dosya yükle",
-	"bs-multiupload-tag-dropzone-desc": "Vikiye önceden yapılandırılmış yüklemelere izin veren bir boşaltma noktası gösterir",
-	"bs-multiupload-tag-dropzone-label-default": "Yüklemeye başlamak için bir dosyayı buraya sürükleyip bırakın",
-	"bs-multiupload-tag-error-invalid prefix": "Geçersiz dosya adı öneki \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "Geçersiz {{PLURAL:$1|kategori}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "Sayfa şimdi yeniden yüklenecek"
+	"bs-uploader-drop-or-click": "Dosyay\u0131 buraya s\u00fcr\u00fckleyip b\u0131rak\u0131n veya y\u00fcklenecek dosyay\u0131 se\u00e7mek i\u00e7in t\u0131klay\u0131n",
+	"bs-multiupload-tag-button-desc": "Vikiye \u00f6nceden yap\u0131land\u0131r\u0131lm\u0131\u015f y\u00fcklemelere izin veren bir d\u00fc\u011fme g\u00f6sterir",
+	"bs-multiupload-tag-button-label-default": "Dosya y\u00fckle",
+	"bs-multiupload-tag-dropzone-desc": "Vikiye \u00f6nceden yap\u0131land\u0131r\u0131lm\u0131\u015f y\u00fcklemelere izin veren bir bo\u015faltma noktas\u0131 g\u00f6sterir",
+	"bs-multiupload-tag-dropzone-label-default": "Y\u00fcklemeye ba\u015flamak i\u00e7in bir dosyay\u0131 buraya s\u00fcr\u00fckleyip b\u0131rak\u0131n",
+	"bs-multiupload-tag-error-invalid prefix": "Ge\u00e7ersiz dosya ad\u0131 \u00f6neki \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "Ge\u00e7ersiz {{PLURAL:$1|kategori}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Sayfa \u015fimdi yeniden y\u00fcklenecek"
 }

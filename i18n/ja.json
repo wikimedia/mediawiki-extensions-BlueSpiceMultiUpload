@@ -3,19 +3,19 @@
 		"authors": [
 			"LaMagiaaa",
 			"Otokoume",
-			"もなー(偽物)"
+			"\u3082\u306a\u30fc(\u507d\u7269)"
 		]
 	},
-	"bs-multiupload-desc": "ファイルの一括アップロードを可能にする",
-	"bs-upload-multiupload-link-label": "ファイルをアップロード",
-	"bs-upload-multiuploaddialogtitle": "ファイルをアップロード",
-	"bs-deferred-action-apiupload-description": "「$1」を「$2」にアップロードします",
-	"bs-uploader-mime-images-label": "画像",
-	"bs-uploader-mime-files-label": "ファイル",
-	"bs-multiupload-tag-error-invalid-categories": "無効な{{PLURAL:$1|カテゴリ}}：「$2」",
-	"bs-multiupload-tag-hint-reloadpage": "ページはすぐにリロードされます",
-	"bs-uploader-drop-or-click": "ここにファイルをドラッグ&ドロップまたはクリックしてアップロードするファイルを選択",
-	"bs-multiupload-tag-button-label-default": "ファイルをアップロード",
-	"bs-multiupload-tag-dropzone-label-default": "ここにファイルをドラッグ アンド ドロップしてアップロード",
-	"bs-multiupload-tag-error-invalid prefix": "ファイル名の接頭辞「 $1 」が無効です!"
+	"bs-multiupload-desc": "\u30d5\u30a1\u30a4\u30eb\u306e\u4e00\u62ec\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3092\u53ef\u80fd\u306b\u3059\u308b",
+	"bs-upload-multiupload-link-label": "\u30d5\u30a1\u30a4\u30eb\u3092\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9",
+	"bs-upload-multiuploaddialogtitle": "\u30d5\u30a1\u30a4\u30eb\u3092\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9",
+	"bs-deferred-action-apiupload-description": "\u300c$1\u300d\u3092\u300c$2\u300d\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3057\u307e\u3059",
+	"bs-uploader-mime-images-label": "\u753b\u50cf",
+	"bs-uploader-mime-files-label": "\u30d5\u30a1\u30a4\u30eb",
+	"bs-multiupload-tag-error-invalid-categories": "\u7121\u52b9\u306a{{PLURAL:$1|\u30ab\u30c6\u30b4\u30ea}}\uff1a\u300c$2\u300d",
+	"bs-multiupload-tag-hint-reloadpage": "\u30da\u30fc\u30b8\u306f\u3059\u3050\u306b\u30ea\u30ed\u30fc\u30c9\u3055\u308c\u307e\u3059",
+	"bs-uploader-drop-or-click": "\u3053\u3053\u306b\u30d5\u30a1\u30a4\u30eb\u3092\u30c9\u30e9\u30c3\u30b0&\u30c9\u30ed\u30c3\u30d7\u307e\u305f\u306f\u30af\u30ea\u30c3\u30af\u3057\u3066\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d5\u30a1\u30a4\u30eb\u3092\u9078\u629e",
+	"bs-multiupload-tag-button-label-default": "\u30d5\u30a1\u30a4\u30eb\u3092\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9",
+	"bs-multiupload-tag-dropzone-label-default": "\u3053\u3053\u306b\u30d5\u30a1\u30a4\u30eb\u3092\u30c9\u30e9\u30c3\u30b0 \u30a2\u30f3\u30c9 \u30c9\u30ed\u30c3\u30d7\u3057\u3066\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9",
+	"bs-multiupload-tag-error-invalid prefix": "\u30d5\u30a1\u30a4\u30eb\u540d\u306e\u63a5\u982d\u8f9e\u300c $1 \u300d\u304c\u7121\u52b9\u3067\u3059!"
 }

@@ -4,18 +4,18 @@
 			"Joetaras"
 		]
 	},
-	"bs-multiupload-desc": "Dèje 'u carecamende automateche de le file",
+	"bs-multiupload-desc": "D\u00e8je 'u carecamende automateche de le file",
 	"bs-upload-multiupload-link-label": "Careche le file",
 	"bs-upload-multiuploaddialogtitle": "Careche le file",
 	"bs-deferred-action-apiupload-description": "Careche de \"$1\" a \"$2\"",
 	"bs-uploader-mime-images-label": "Immaggine",
 	"bs-uploader-mime-files-label": "Fail",
-	"bs-uploader-drop-or-click": "Carresce aqquà le file o cazze pe scacchià 'u file da carecà",
-	"bs-multiupload-tag-button-desc": "Fà 'ndrucà 'nu buttone ca face fa le carecaminde preconfigurate sus 'a uicchi",
+	"bs-uploader-drop-or-click": "Carresce aqqu\u00e0 le file o cazze pe scacchi\u00e0 'u file da carec\u00e0",
+	"bs-multiupload-tag-button-desc": "F\u00e0 'ndruc\u00e0 'nu buttone ca face fa le carecaminde preconfigurate sus 'a uicchi",
 	"bs-multiupload-tag-button-label-default": "Careche 'u file",
-	"bs-multiupload-tag-dropzone-desc": "Fà 'ndrucà 'na zone pu carresciamende ca face fa le carecaminde preconfigurate sus 'a uicchi",
-	"bs-multiupload-tag-dropzone-label-default": "Carresce aqquà 'nu file pe accumenzà 'u carecamende",
-	"bs-multiupload-tag-error-invalid prefix": "'U prefisse d'u nome de archiviazione $1 non gè valide!",
+	"bs-multiupload-tag-dropzone-desc": "F\u00e0 'ndruc\u00e0 'na zone pu carresciamende ca face fa le carecaminde preconfigurate sus 'a uicchi",
+	"bs-multiupload-tag-dropzone-label-default": "Carresce aqqu\u00e0 'nu file pe accumenz\u00e0 'u carecamende",
+	"bs-multiupload-tag-error-invalid prefix": "'U prefisse d'u nome de archiviazione $1 non g\u00e8 valide!",
 	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categorije}} invalide \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "'A pàgene avène carecate arrete mò"
+	"bs-multiupload-tag-hint-reloadpage": "'A p\u00e0gene av\u00e8ne carecate arrete m\u00f2"
 }
