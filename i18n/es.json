@@ -10,14 +10,14 @@
 	"bs-upload-multiupload-link-label": "Subir archivos",
 	"bs-upload-multiuploaddialogtitle": "Subir archivos",
 	"bs-deferred-action-apiupload-description": "Subida de \"$1\" a \"$2\"",
-	"bs-uploader-mime-images-label": "Im\u00e1genes",
+	"bs-uploader-mime-images-label": "Imágenes",
 	"bs-uploader-mime-files-label": "Archivos",
-	"bs-uploader-drop-or-click": "Arrastra y coloca aqu\u00ed un archivo para cargarlo o pulsa para seleccionar uno",
-	"bs-multiupload-tag-button-desc": "Muestra un bot\u00f3n que permite cargas preconfiguradas a la wiki",
+	"bs-uploader-drop-or-click": "Arrastra y coloca aquí un archivo para cargarlo o pulsa para seleccionar uno",
+	"bs-multiupload-tag-button-desc": "Muestra un botón que permite cargas preconfiguradas a la wiki",
 	"bs-multiupload-tag-button-label-default": "Cargar un archivo",
-	"bs-multiupload-tag-dropzone-desc": "Muestra una zona de ca\u00edda que permite cargas preconfiguradas a la wiki.",
-	"bs-multiupload-tag-dropzone-label-default": "Arrastra y coloca un archivo aqu\u00ed para comenzar la carga",
-	"bs-multiupload-tag-error-invalid prefix": "El prefijo del nombre de archivo \u00ab$1\u00bb no es v\u00e1lido.",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categor\u00eda no v\u00e1lida|Categor\u00edas no v\u00e1lidas}}: \u00ab$2\u00bb",
-	"bs-multiupload-tag-hint-reloadpage": "Ahora se volver\u00e1 a cargar la p\u00e1gina"
+	"bs-multiupload-tag-dropzone-desc": "Muestra una zona de caída que permite cargas preconfiguradas a la wiki.",
+	"bs-multiupload-tag-dropzone-label-default": "Arrastra y coloca un archivo aquí para comenzar la carga",
+	"bs-multiupload-tag-error-invalid prefix": "El prefijo del nombre de archivo «$1» no es válido.",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoría no válida|Categorías no válidas}}: «$2»",
+	"bs-multiupload-tag-hint-reloadpage": "Ahora se volverá a cargar la página"
 }

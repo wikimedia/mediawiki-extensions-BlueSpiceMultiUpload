@@ -4,17 +4,17 @@
 			"Ykhwong"
 		]
 	},
-	"bs-multiupload-desc": "\ud30c\uc77c \uc77c\uad04 \uc5c5\ub85c\ub4dc\ub97c \uc81c\uacf5\ud569\ub2c8\ub2e4",
-	"bs-upload-multiupload-link-label": "\ud30c\uc77c \uc5c5\ub85c\ub4dc",
-	"bs-upload-multiuploaddialogtitle": "\ud30c\uc77c \uc5c5\ub85c\ub4dc",
-	"bs-deferred-action-apiupload-description": "\"$1\"\uc744(\ub97c) \"$2\"(\uc73c)\ub85c \uc5c5\ub85c\ub4dc",
-	"bs-uploader-mime-images-label": "\uadf8\ub9bc",
-	"bs-uploader-mime-files-label": "\ud30c\uc77c",
-	"bs-uploader-drop-or-click": "\uc5c5\ub85c\ub4dc\ub97c \uc704\ud574 \ud30c\uc77c\uc744 \uc5ec\uae30\uc5d0 \ub04c\uc5b4\ub193\uac70\ub098 \ud30c\uc77c \uc120\ud0dd\uc744 \uc704\ud574 \ud074\ub9ad\ud558\uc2ed\uc2dc\uc624",
-	"bs-multiupload-tag-button-desc": "\uc704\ud0a4\uc5d0 \ubbf8\ub9ac \uad6c\uc131\ub41c \uc5c5\ub85c\ub4dc\ub97c \ud5c8\uc6a9\ud558\ub294 \ubc84\ud2bc\uc744 \ud45c\uc2dc\ud569\ub2c8\ub2e4",
-	"bs-multiupload-tag-button-label-default": "\ud30c\uc77c \uc5c5\ub85c\ub4dc",
-	"bs-multiupload-tag-dropzone-label-default": "\uc5c5\ub85c\ub4dc\ub97c \uc2dc\uc791\ud558\ub824\uba74 \uc5ec\uae30\uc5d0 \ud30c\uc77c\uc744 \ub04c\uc5b4 \ub193\uc73c\uc2ed\uc2dc\uc624",
-	"bs-multiupload-tag-error-invalid prefix": "\uc720\ud6a8\ud558\uc9c0 \uc54a\uc740 \ud30c\uc77c \uc774\ub984 \ud655\uc7a5\uc790 \"$1\"\uc785\ub2c8\ub2e4!",
-	"bs-multiupload-tag-error-invalid-categories": "\uc720\ud6a8\ud558\uc9c0 \uc54a\uc740 {{PLURAL:$1|\ubd84\ub958}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "\ubb38\uc11c\ub97c \uc9c0\uae08 \ub2e4\uc2dc \ubd88\ub7ec\uc635\ub2c8\ub2e4"
+	"bs-multiupload-desc": "파일 일괄 업로드를 제공합니다",
+	"bs-upload-multiupload-link-label": "파일 업로드",
+	"bs-upload-multiuploaddialogtitle": "파일 업로드",
+	"bs-deferred-action-apiupload-description": "\"$1\"을(를) \"$2\"(으)로 업로드",
+	"bs-uploader-mime-images-label": "그림",
+	"bs-uploader-mime-files-label": "파일",
+	"bs-uploader-drop-or-click": "업로드를 위해 파일을 여기에 끌어놓거나 파일 선택을 위해 클릭하십시오",
+	"bs-multiupload-tag-button-desc": "위키에 미리 구성된 업로드를 허용하는 버튼을 표시합니다",
+	"bs-multiupload-tag-button-label-default": "파일 업로드",
+	"bs-multiupload-tag-dropzone-label-default": "업로드를 시작하려면 여기에 파일을 끌어 놓으십시오",
+	"bs-multiupload-tag-error-invalid prefix": "유효하지 않은 파일 이름 확장자 \"$1\"입니다!",
+	"bs-multiupload-tag-error-invalid-categories": "유효하지 않은 {{PLURAL:$1|분류}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "문서를 지금 다시 불러옵니다"
 }

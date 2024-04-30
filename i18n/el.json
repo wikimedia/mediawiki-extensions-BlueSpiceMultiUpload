@@ -6,13 +6,13 @@
 			"Nikosgranturismogt"
 		]
 	},
-	"bs-upload-multiupload-link-label": "\u0391\u03bd\u03ad\u03b2\u03b1\u03c3\u03bc\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03c9\u03bd",
-	"bs-upload-multiuploaddialogtitle": "\u0391\u03bd\u03ad\u03b2\u03b1\u03c3\u03bc\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03c9\u03bd",
-	"bs-uploader-mime-images-label": "\u0395\u03b9\u03ba\u03cc\u03bd\u03b5\u03c2",
-	"bs-uploader-mime-files-label": "\u0391\u03c1\u03c7\u03b5\u03af\u03b1",
-	"bs-multiupload-tag-button-desc": "\u0395\u03bc\u03c6\u03b1\u03bd\u03af\u03b6\u03b5\u03b9 \u03ad\u03bd\u03b1 \u03ba\u03bf\u03c5\u03bc\u03c0\u03af \u03c0\u03bf\u03c5 \u03b5\u03c0\u03b9\u03c4\u03c1\u03ad\u03c0\u03b5\u03b9 \u03c0\u03c1\u03bf\u03c1\u03c5\u03b8\u03bc\u03b9\u03c3\u03bc\u03ad\u03bd\u03b5\u03c2 \u03bc\u03b5\u03c4\u03b1\u03c6\u03bf\u03c1\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03c3\u03c4\u03bf \u03b2\u03af\u03ba\u03b9",
-	"bs-multiupload-tag-button-label-default": "\u0391\u03bd\u03ad\u03b2\u03b1\u03c3\u03bc\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03bf\u03c5",
-	"bs-multiupload-tag-error-invalid prefix": "\u0386\u03ba\u03c5\u03c1\u03bf \u03c0\u03c1\u03cc\u03b8\u03b5\u03bc\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03bf\u03c5 \"$1\"",
-	"bs-multiupload-tag-error-invalid-categories": "\u0386\u03ba\u03c5\u03c1\u03b5\u03c2 {{PLURAL:$1|\u03ba\u03b1\u03c4\u03b7\u03b3\u03bf\u03c1\u03af\u03b1|\u03ba\u03b1\u03c4\u03b7\u03b3\u03bf\u03c1\u03af\u03b5\u03c2}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "\u0397 \u03c3\u03b5\u03bb\u03af\u03b4\u03b1 \u03b8\u03b1 \u03b5\u03c0\u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03c4\u03c9\u03b8\u03b5\u03af \u03c4\u03ce\u03c1\u03b1"
+	"bs-upload-multiupload-link-label": "Ανέβασμα αρχείων",
+	"bs-upload-multiuploaddialogtitle": "Ανέβασμα αρχείων",
+	"bs-uploader-mime-images-label": "Εικόνες",
+	"bs-uploader-mime-files-label": "Αρχεία",
+	"bs-multiupload-tag-button-desc": "Εμφανίζει ένα κουμπί που επιτρέπει προρυθμισμένες μεταφορτώσεις στο βίκι",
+	"bs-multiupload-tag-button-label-default": "Ανέβασμα αρχείου",
+	"bs-multiupload-tag-error-invalid prefix": "Άκυρο πρόθεμα αρχείου \"$1\"",
+	"bs-multiupload-tag-error-invalid-categories": "Άκυρες {{PLURAL:$1|κατηγορία|κατηγορίες}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Η σελίδα θα επαναφορτωθεί τώρα"
 }

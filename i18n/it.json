@@ -17,7 +17,7 @@
 	"bs-multiupload-tag-button-label-default": "Carica file",
 	"bs-multiupload-tag-dropzone-desc": "Mostra una dropzone che consente i caricamenti preconfigurati sul wiki",
 	"bs-multiupload-tag-dropzone-label-default": "Trascina qui un file per iniziare il caricamento",
-	"bs-multiupload-tag-error-invalid prefix": "Il prefisso del nome di archiviazione $1 non \u00e8 valido!",
+	"bs-multiupload-tag-error-invalid prefix": "Il prefisso del nome di archiviazione $1 non è valido!",
 	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria non valida|Categorie non valide}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "La pagina verr\u00e0 ricaricata ora"
+	"bs-multiupload-tag-hint-reloadpage": "La pagina verrà ricaricata ora"
 }

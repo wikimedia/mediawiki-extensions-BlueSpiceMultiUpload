@@ -4,18 +4,18 @@
 			"WikiPhoenix"
 		]
 	},
-	"bs-multiupload-desc": "G\u00f6r det m\u00f6jligt att ladda upp filgrupper",
+	"bs-multiupload-desc": "Gör det möjligt att ladda upp filgrupper",
 	"bs-upload-multiupload-link-label": "Ladda upp filer",
 	"bs-upload-multiuploaddialogtitle": "Ladda upp filer",
 	"bs-deferred-action-apiupload-description": "Uppladdning av \"$1\" till \"$2\"",
 	"bs-uploader-mime-images-label": "Bilder",
 	"bs-uploader-mime-files-label": "Filer",
-	"bs-uploader-drop-or-click": "Dra och sl\u00e4pp fil h\u00e4r eller klicka f\u00f6r att v\u00e4lja fil att ladda upp",
-	"bs-multiupload-tag-button-desc": "Visar en knapp som till\u00e5ter f\u00f6rhandskonfigurerade uppladdningar till wikin",
+	"bs-uploader-drop-or-click": "Dra och släpp fil här eller klicka för att välja fil att ladda upp",
+	"bs-multiupload-tag-button-desc": "Visar en knapp som tillåter förhandskonfigurerade uppladdningar till wikin",
 	"bs-multiupload-tag-button-label-default": "Ladda upp fil",
-	"bs-multiupload-tag-dropzone-desc": "Visar en sl\u00e4ppzon som till\u00e5ter f\u00f6rhandskonfigurerade uppladdningar till wikin",
-	"bs-multiupload-tag-dropzone-label-default": "Dra och sl\u00e4pp en fil h\u00e4r f\u00f6r att b\u00f6rja ladda upp",
-	"bs-multiupload-tag-error-invalid prefix": "\"$1\" \u00e4r ett ogiltig filnamnsprefix!",
+	"bs-multiupload-tag-dropzone-desc": "Visar en släppzon som tillåter förhandskonfigurerade uppladdningar till wikin",
+	"bs-multiupload-tag-dropzone-label-default": "Dra och släpp en fil här för att börja ladda upp",
+	"bs-multiupload-tag-error-invalid prefix": "\"$1\" är ett ogiltig filnamnsprefix!",
 	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Ogiltig kategori|Ogiltiga kategorier}}: \"$2\"",
 	"bs-multiupload-tag-hint-reloadpage": "Sidan kommer nu att uppdateras"
 }
