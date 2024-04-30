@@ -12,11 +12,11 @@
 	"bs-uploader-mime-images-label": "Imagens",
 	"bs-uploader-mime-files-label": "Arquivos",
 	"bs-uploader-drop-or-click": "Arraste e solte o arquivo aqui ou clique para selecionar o arquivo para carregar",
-	"bs-multiupload-tag-button-desc": "Mostra um bot\u00e3o que permite carregamentos pr\u00e9-configurados para a wiki",
+	"bs-multiupload-tag-button-desc": "Mostra um botão que permite carregamentos pré-configurados para a wiki",
 	"bs-multiupload-tag-button-label-default": "Enviar arquivo",
-	"bs-multiupload-tag-dropzone-desc": "Mostra uma zona para largar arquivos, que permite carregamentos pr\u00e9-configurados para a wiki",
+	"bs-multiupload-tag-dropzone-desc": "Mostra uma zona para largar arquivos, que permite carregamentos pré-configurados para a wiki",
 	"bs-multiupload-tag-dropzone-label-default": "Arraste e largue aqui um arquivo para iniciar o carregamento",
-	"bs-multiupload-tag-error-invalid prefix": "Prefixo inv\u00e1lido no nome do arquivo: \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria inv\u00e1lida|Categorias inv\u00e1lidas}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "A p\u00e1gina ser\u00e1 atualizada agora"
+	"bs-multiupload-tag-error-invalid prefix": "Prefixo inválido no nome do arquivo: \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria inválida|Categorias inválidas}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "A página será atualizada agora"
 }

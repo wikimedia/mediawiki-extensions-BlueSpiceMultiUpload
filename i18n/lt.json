@@ -5,16 +5,16 @@
 			"Nokeoo"
 		]
 	},
-	"bs-upload-multiupload-link-label": "\u012ekelti failus",
-	"bs-upload-multiuploaddialogtitle": "\u012ekelti failus",
-	"bs-deferred-action-apiupload-description": "\u201e$1\u201c \u012fk\u0117limas \u012f \u201e$2\u201c",
-	"bs-uploader-mime-images-label": "Paveiksl\u0117liai",
+	"bs-upload-multiupload-link-label": "Įkelti failus",
+	"bs-upload-multiuploaddialogtitle": "Įkelti failus",
+	"bs-deferred-action-apiupload-description": "„$1“ įkėlimas į „$2“",
+	"bs-uploader-mime-images-label": "Paveikslėliai",
 	"bs-uploader-mime-files-label": "Failai",
-	"bs-uploader-drop-or-click": "Nuvilkite fail\u0105 \u010dia arba spustel\u0117kite, kad pasirinktum\u0117te fail\u0105, kur\u012f norite \u012fkelti",
-	"bs-multiupload-tag-button-desc": "Rodo mygtuk\u0105, leid\u017eiant\u012f i\u0161 anksto sukonfig\u016bruoti \u012fk\u0117lim\u0105 \u012f vik\u012f",
-	"bs-multiupload-tag-button-label-default": "\u012ekelti fail\u0105",
-	"bs-multiupload-tag-dropzone-desc": "Rodoma zona, leid\u017eianti i\u0161 anksto sukonfig\u016bruoti \u012fk\u0117lim\u0105 \u012f vik\u012f",
-	"bs-multiupload-tag-dropzone-label-default": "Nuvilkite fail\u0105 \u010dia, kad prad\u0117tum\u0117te \u012fk\u0117lim\u0105",
-	"bs-multiupload-tag-error-invalid-categories": "Negalima {{PLURAL:$1|kategorija|kategorijos}}: \u201e$2\u201c",
-	"bs-multiupload-tag-hint-reloadpage": "Dabar puslapis bus \u012fkeltas i\u0161 naujo"
+	"bs-uploader-drop-or-click": "Nuvilkite failą čia arba spustelėkite, kad pasirinktumėte failą, kurį norite įkelti",
+	"bs-multiupload-tag-button-desc": "Rodo mygtuką, leidžiantį iš anksto sukonfigūruoti įkėlimą į vikį",
+	"bs-multiupload-tag-button-label-default": "Įkelti failą",
+	"bs-multiupload-tag-dropzone-desc": "Rodoma zona, leidžianti iš anksto sukonfigūruoti įkėlimą į vikį",
+	"bs-multiupload-tag-dropzone-label-default": "Nuvilkite failą čia, kad pradėtumėte įkėlimą",
+	"bs-multiupload-tag-error-invalid-categories": "Negalima {{PLURAL:$1|kategorija|kategorijos}}: „$2“",
+	"bs-multiupload-tag-hint-reloadpage": "Dabar puslapis bus įkeltas iš naujo"
 }

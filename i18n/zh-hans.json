@@ -4,18 +4,18 @@
 			"Liuxinyu970226"
 		]
 	},
-	"bs-multiupload-desc": "\u63d0\u4f9b\u6279\u91cf\u4e0a\u4f20\u6587\u4ef6",
-	"bs-upload-multiupload-link-label": "\u4e0a\u4f20\u6587\u4ef6",
-	"bs-upload-multiuploaddialogtitle": "\u4e0a\u4f20\u6587\u4ef6",
-	"bs-deferred-action-apiupload-description": "\u4e0a\u4f20\u201c$1\u201d\u81f3\u201c$2\u201d",
-	"bs-uploader-mime-images-label": "\u56fe\u7247",
-	"bs-uploader-mime-files-label": "\u6587\u4ef6",
-	"bs-uploader-drop-or-click": "\u62d6\u653e\u6587\u4ef6\u81f3\u6b64\uff0c\u6216\u70b9\u51fb\u9009\u62e9\u6587\u4ef6\u4e0a\u4f20",
-	"bs-multiupload-tag-button-desc": "\u663e\u793a\u5141\u8bb8\u9884\u914d\u7f6e\u4e0a\u4f20\u81f3wiki\u7684\u6309\u94ae",
-	"bs-multiupload-tag-button-label-default": "\u4e0a\u4f20\u6587\u4ef6",
-	"bs-multiupload-tag-dropzone-desc": "\u663e\u793a\u5141\u8bb8\u9884\u914d\u7f6e\u4e0a\u4f20\u81f3wiki\u7684\u62d6\u653e\u533a",
-	"bs-multiupload-tag-dropzone-label-default": "\u62d6\u653e\u6587\u4ef6\u81f3\u6b64\u4ee5\u542f\u52a8\u4e0a\u4f20",
-	"bs-multiupload-tag-error-invalid prefix": "\u65e0\u6548\u7684\u6587\u4ef6\u540d\u524d\u7f00\u201c$1\u201d\uff01",
-	"bs-multiupload-tag-error-invalid-categories": "\u65e0\u6548{{PLURAL:$1|\u5206\u7c7b}}\uff1a\u201c$2\u201d",
-	"bs-multiupload-tag-hint-reloadpage": "\u9875\u9762\u73b0\u5728\u5c06\u91cd\u65b0\u52a0\u8f7d"
+	"bs-multiupload-desc": "提供批量上传文件",
+	"bs-upload-multiupload-link-label": "上传文件",
+	"bs-upload-multiuploaddialogtitle": "上传文件",
+	"bs-deferred-action-apiupload-description": "上传“$1”至“$2”",
+	"bs-uploader-mime-images-label": "图片",
+	"bs-uploader-mime-files-label": "文件",
+	"bs-uploader-drop-or-click": "拖放文件至此，或点击选择文件上传",
+	"bs-multiupload-tag-button-desc": "显示允许预配置上传至wiki的按钮",
+	"bs-multiupload-tag-button-label-default": "上传文件",
+	"bs-multiupload-tag-dropzone-desc": "显示允许预配置上传至wiki的拖放区",
+	"bs-multiupload-tag-dropzone-label-default": "拖放文件至此以启动上传",
+	"bs-multiupload-tag-error-invalid prefix": "无效的文件名前缀“$1”！",
+	"bs-multiupload-tag-error-invalid-categories": "无效{{PLURAL:$1|分类}}：“$2”",
+	"bs-multiupload-tag-hint-reloadpage": "页面现在将重新加载"
 }

@@ -5,18 +5,18 @@
 			"YaronSh"
 		]
 	},
-	"bs-multiupload-desc": "\u05de\u05ea\u05df \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05dc\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05e8\u05d5\u05d1\u05d9\u05dd",
-	"bs-upload-multiupload-link-label": "\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd",
-	"bs-upload-multiuploaddialogtitle": "\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd",
-	"bs-deferred-action-apiupload-description": "\u05d4\u05e2\u05dc\u05d0\u05ea \u05d4\u05e7\u05d5\u05d1\u05e5 \"$1\" \u05d0\u05dc \"$2\"",
-	"bs-uploader-mime-images-label": "\u05ea\u05de\u05d5\u05e0\u05d5\u05ea",
-	"bs-uploader-mime-files-label": "\u05e7\u05d1\u05e6\u05d9\u05dd",
-	"bs-uploader-drop-or-click": "\u05d9\u05e9 \u05dc\u05d2\u05e8\u05d5\u05e8 \u05d5\u05dc\u05e9\u05d7\u05e8\u05e8 \u05e7\u05d5\u05d1\u05e5 \u05dc\u05db\u05d0\u05df, \u05d0\u05d5 \u05dc\u05d7\u05dc\u05d5\u05e4\u05d9\u05df \u05dc\u05d1\u05d7\u05d5\u05e8 \u05e7\u05d5\u05d1\u05e5 \u05dc\u05d4\u05e2\u05dc\u05d0\u05d4",
-	"bs-multiupload-tag-button-desc": "\u05d4\u05e6\u05d2\u05ea \u05db\u05e4\u05ea\u05d5\u05e8 \u05d4\u05de\u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05e2\u05dc\u05d5\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05d5\u05d2\u05d3\u05e8\u05d9\u05dd \u05de\u05e8\u05d0\u05e9 \u05dc\u05d0\u05ea\u05e8 \u05d4\u05d5\u05d5\u05d9\u05e7\u05d9",
-	"bs-multiupload-tag-button-label-default": "\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d5\u05d1\u05e5",
-	"bs-multiupload-tag-dropzone-desc": "\u05d4\u05e6\u05d2\u05ea \u05d0\u05d6\u05d5\u05e8 \u05d4\u05de\u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05e2\u05dc\u05d5\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd \u05de\u05d5\u05d2\u05d3\u05e8\u05d9\u05dd \u05de\u05e8\u05d0\u05e9 \u05dc\u05d0\u05ea\u05e8 \u05d4\u05d5\u05d5\u05d9\u05e7\u05d9",
-	"bs-multiupload-tag-dropzone-label-default": "\u05d9\u05e9 \u05dc\u05d2\u05e8\u05d5\u05e8 \u05d5\u05dc\u05e9\u05d7\u05e8\u05e8 \u05e7\u05d5\u05d1\u05e5 \u05dc\u05db\u05d0\u05df \u05db\u05d3\u05d9 \u05dc\u05d4\u05ea\u05d7\u05d9\u05dc \u05d1\u05d4\u05e2\u05dc\u05d0\u05d4",
-	"bs-multiupload-tag-error-invalid prefix": "\u05d4\u05ea\u05d7\u05d9\u05dc\u05d9\u05ea \"$1\" \u05d0\u05d9\u05e0\u05d4 \u05ea\u05d7\u05d9\u05dc\u05d9\u05ea \u05ea\u05e7\u05d9\u05e0\u05d4 \u05e2\u05d1\u05d5\u05e8 \u05e9\u05de\u05d5\u05ea \u05e7\u05d1\u05e6\u05d9\u05dd!",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4 \u05d1\u05dc\u05ea\u05d9\u05be\u05ea\u05e7\u05d9\u05e0\u05d4|\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d5\u05ea \u05d1\u05dc\u05ea\u05d9\u05be\u05ea\u05e7\u05d9\u05e0\u05d5\u05ea}}: \"$2\"",
-	"bs-multiupload-tag-hint-reloadpage": "\u05d4\u05d3\u05e3 \u05d9\u05d9\u05d8\u05e2\u05df \u05de\u05d7\u05d3\u05e9 \u05e2\u05db\u05e9\u05d9\u05d5"
+	"bs-multiupload-desc": "מתן אפשרות להעלאת קבצים מרובים",
+	"bs-upload-multiupload-link-label": "העלאת קבצים",
+	"bs-upload-multiuploaddialogtitle": "העלאת קבצים",
+	"bs-deferred-action-apiupload-description": "העלאת הקובץ \"$1\" אל \"$2\"",
+	"bs-uploader-mime-images-label": "תמונות",
+	"bs-uploader-mime-files-label": "קבצים",
+	"bs-uploader-drop-or-click": "יש לגרור ולשחרר קובץ לכאן, או לחלופין לבחור קובץ להעלאה",
+	"bs-multiupload-tag-button-desc": "הצגת כפתור המאפשר להעלות קבצים מוגדרים מראש לאתר הוויקי",
+	"bs-multiupload-tag-button-label-default": "העלאת קובץ",
+	"bs-multiupload-tag-dropzone-desc": "הצגת אזור המאפשר להעלות קבצים מוגדרים מראש לאתר הוויקי",
+	"bs-multiupload-tag-dropzone-label-default": "יש לגרור ולשחרר קובץ לכאן כדי להתחיל בהעלאה",
+	"bs-multiupload-tag-error-invalid prefix": "התחילית \"$1\" אינה תחילית תקינה עבור שמות קבצים!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|קטגוריה בלתי־תקינה|קטגוריות בלתי־תקינות}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "הדף ייטען מחדש עכשיו"
 }

@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
-	"bs-multiupload-desc": "Omogu\u0107ava grupno otpremanje datoteka",
+	"bs-multiupload-desc": "Omogućava grupno otpremanje datoteka",
 	"bs-upload-multiupload-link-label": "Otpremi datoteke",
 	"bs-upload-multiuploaddialogtitle": "Otpremi datoteke",
 	"bs-deferred-action-apiupload-description": "Otpremanje \"$1\" na \"$2\"",
@@ -10,8 +10,8 @@
 	"bs-uploader-mime-files-label": "Datoteke",
 	"bs-uploader-drop-or-click": "Prevucite i otpustite datoteku ovde ili kliknite da odaberete datoteku za otpremanje",
 	"bs-multiupload-tag-button-label-default": "Otpremi datoteku",
-	"bs-multiupload-tag-dropzone-label-default": "Prevucite i otpustite datoteku ovde da zapo\u010dnete otpremanje",
-	"bs-multiupload-tag-hint-reloadpage": "Stranica \u0107e se sada ponovo u\u010ditati",
-	"bs-multiupload-tag-error-invalid prefix": "Neva\u017ee\u0107i prefiks za naziv datoteke \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Neva\u017ee\u0107a kategorija|Neva\u017ee\u0107e kategorije}}: \"$2\""
+	"bs-multiupload-tag-dropzone-label-default": "Prevucite i otpustite datoteku ovde da započnete otpremanje",
+	"bs-multiupload-tag-hint-reloadpage": "Stranica će se sada ponovo učitati",
+	"bs-multiupload-tag-error-invalid prefix": "Nevažeći prefiks za naziv datoteke \"$1\"!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Nevažeća kategorija|Nevažeće kategorije}}: \"$2\""
 }

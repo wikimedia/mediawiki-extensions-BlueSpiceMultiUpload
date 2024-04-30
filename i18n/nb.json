@@ -1,21 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald S\u00f8by"
+			"Jon Harald Søby"
 		]
 	},
 	"bs-multiupload-desc": "Tilbyr partiopplasting av filer",
 	"bs-upload-multiupload-link-label": "Last opp filer",
 	"bs-upload-multiuploaddialogtitle": "Last opp filer",
-	"bs-deferred-action-apiupload-description": "Opplasting av \u00ab$1\u00bb til \u00ab$2\u00bb",
+	"bs-deferred-action-apiupload-description": "Opplasting av «$1» til «$2»",
 	"bs-uploader-mime-images-label": "Bilder",
 	"bs-uploader-mime-files-label": "Filer",
-	"bs-uploader-drop-or-click": "Dra og slipp fil her eller klikk for \u00e5 velge fil \u00e5 laste opp",
-	"bs-multiupload-tag-button-desc": "Viser en knapp som tillater forh\u00e5ndskonfigurerte opplastinger til wikien",
+	"bs-uploader-drop-or-click": "Dra og slipp fil her eller klikk for å velge fil å laste opp",
+	"bs-multiupload-tag-button-desc": "Viser en knapp som tillater forhåndskonfigurerte opplastinger til wikien",
 	"bs-multiupload-tag-button-label-default": "Last opp fil",
-	"bs-multiupload-tag-dropzone-desc": "Viser en slippsone som tillater forh\u00e5ndskonfigurerte opplastinger til wikien",
-	"bs-multiupload-tag-dropzone-label-default": "Dra og slipp en fil her for \u00e5 starte opplasting",
-	"bs-multiupload-tag-error-invalid prefix": "Ugyldig filnavnendelse \u00ab$1\u00bb!",
-	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Ugyldig kategori|Ugyldige kategorier}}: \u00ab$2\u00bb",
+	"bs-multiupload-tag-dropzone-desc": "Viser en slippsone som tillater forhåndskonfigurerte opplastinger til wikien",
+	"bs-multiupload-tag-dropzone-label-default": "Dra og slipp en fil her for å starte opplasting",
+	"bs-multiupload-tag-error-invalid prefix": "Ugyldig filnavnendelse «$1»!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Ugyldig kategori|Ugyldige kategorier}}: «$2»",
 	"bs-multiupload-tag-hint-reloadpage": "Bidragsyter"
 }
