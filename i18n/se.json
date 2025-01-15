@@ -4,5 +4,6 @@
 			"Yupik"
 		]
 	},
-	"bs-uploader-mime-files-label": "Fiillat"
+	"bs-uploader-mime-files-label": "Fiillat",
+	"bs-multiupload-tag-button-label-default": "Vurke fiilla"
 }
