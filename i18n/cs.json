@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ilimanaq29"
+			"Ilimanaq29",
+			"Jrobicek"
 		]
 	},
+	"bs-upload-multiupload-link-label": "Nahrát soubory",
+	"bs-upload-multiuploaddialogtitle": "Nahrát soubory",
+	"bs-uploader-mime-files-label": "Soubory",
 	"bs-uploader-drop-or-click": "Uchopte a položte soubor zde nebo na něj klikněte, abyste ho zvolili k nahrání"
 }
