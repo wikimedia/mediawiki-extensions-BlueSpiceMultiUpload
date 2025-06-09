@@ -3,6 +3,7 @@
 		"authors": [
 			"BanKris",
 			"Krisztina",
+			"Tacsipacsi",
 			"Urbalazs"
 		]
 	},
@@ -15,7 +16,7 @@
 	"bs-uploader-drop-or-click": "Húzd ide a fájlt, vagy kattints a feltöltendő fájl kiválasztásához",
 	"bs-multiupload-tag-button-label-default": "Fájl feltöltése",
 	"bs-multiupload-tag-dropzone-label-default": "Húzz ide egy fájlt a feltöltés megkezdéséhez",
-	"bs-multiupload-tag-error-invalid prefix": "Érvénytelen fájlnév előtag: \"$1\"!",
-	"bs-multiupload-tag-error-invalid-categories": "Érvénytelen {{PLURAL:$1|kategória|kategóriák}}: \"$2\"",
+	"bs-multiupload-tag-error-invalid prefix": "Érvénytelen fájlnévelőtag: „$1”!",
+	"bs-multiupload-tag-error-invalid-categories": "Érvénytelen {{PLURAL:$1|kategória|kategóriák}}: „$2”",
 	"bs-multiupload-tag-hint-reloadpage": "A lap most újratölt"
 }
