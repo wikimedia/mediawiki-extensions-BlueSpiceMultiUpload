@@ -10,7 +10,7 @@
 	"bs-multiupload-desc": "Fájlok kötegelt feltöltését teszi lehetővé",
 	"bs-upload-multiupload-link-label": "Fájlok feltöltése",
 	"bs-upload-multiuploaddialogtitle": "Fájlok feltöltése",
-	"bs-deferred-action-apiupload-description": "\"$1\" feltöltése \"$2\"-re",
+	"bs-deferred-action-apiupload-description": "„$1” feltöltése „$2”-re",
 	"bs-uploader-mime-images-label": "Képek",
 	"bs-uploader-mime-files-label": "Fájlok",
 	"bs-uploader-drop-or-click": "Húzd ide a fájlt, vagy kattints a feltöltendő fájl kiválasztásához",
