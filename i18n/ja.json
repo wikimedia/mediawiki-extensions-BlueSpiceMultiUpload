@@ -3,7 +3,8 @@
 		"authors": [
 			"LaMagiaaa",
 			"Otokoume",
-			"もなー(偽物)"
+			"もなー(偽物)",
+			"Shirayuki"
 		]
 	},
 	"bs-multiupload-desc": "ファイルの一括アップロードを可能にする",
@@ -17,5 +18,5 @@
 	"bs-multiupload-tag-dropzone-label-default": "ここにファイルをドラッグ アンド ドロップしてアップロード",
 	"bs-multiupload-tag-error-invalid prefix": "ファイル名の接頭辞「 $1 」が無効です!",
 	"bs-multiupload-tag-error-invalid-categories": "無効な{{PLURAL:$1|カテゴリ}}：「$2」",
-	"bs-multiupload-tag-hint-reloadpage": "ページはすぐにリロードされます"
+	"bs-multiupload-tag-hint-reloadpage": "ページはすぐに再読み込みされます"
 }
