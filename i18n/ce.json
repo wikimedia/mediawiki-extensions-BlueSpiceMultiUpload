@@ -9,5 +9,9 @@
 	"bs-deferred-action-apiupload-description": "«$2» кху «$1» чуйаккхар",
 	"bs-uploader-mime-images-label": "Суьрташ",
 	"bs-uploader-mime-files-label": "Файлаш",
-	"bs-multiupload-tag-button-label-default": "Чуйаккха файл"
+	"bs-multiupload-tag-button-label-default": "Чуйаккха файл",
+	"bs-multiupload-desc": "Файлаш пакетан чуйахар ло",
+	"bs-multiupload-tag-error-invalid prefix": "Нийса йоцу файлан цӀеран дешхьалхе «$1»!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Нийса йоцу категори}}: «$2»",
+	"bs-multiupload-tag-hint-reloadpage": "ХӀинца агӀо карлайоккхур йу."
 }

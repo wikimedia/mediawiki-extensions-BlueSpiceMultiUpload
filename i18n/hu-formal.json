@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krisztina"
+		]
+	},
+	"bs-uploader-drop-or-click": "Húzzon ide a fájlt, vagy kattintson a feltöltendő fájl kiválasztásához",
+	"bs-multiupload-tag-dropzone-label-default": "Húzzon ide egy fájlt a feltöltés megkezdéséhez"
+}
