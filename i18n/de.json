@@ -12,7 +12,7 @@
 	"bs-deferred-action-apiupload-description": "Hochladen von „$1“ nach „$2“",
 	"bs-uploader-mime-images-label": "Bilder",
 	"bs-uploader-mime-files-label": "Dateien",
-	"bs-uploader-drop-or-click": "Ziehe die Datei hierher und leg sie ab oder klicke, um die Datei zum Hochladen auszuwählen.",
+	"bs-uploader-drop-or-click": "{{#FORMAL:Ziehe|Ziehen Sie}} die Datei hierher und {{#FORMAL:leg|legen Sie}} sie ab oder {{#FORMAL:klicke|klicken Sie}}, um die Datei zum Hochladen auszuwählen.",
 	"bs-multiupload-tag-button-label-default": "Datei hochladen",
 	"bs-multiupload-tag-dropzone-label-default": "Ziehe eine Datei auf diese Fläche um das Hochladen zu starten",
 	"bs-multiupload-tag-error-invalid prefix": "Ungültiger Dateinamenspräfix „$1“!",
