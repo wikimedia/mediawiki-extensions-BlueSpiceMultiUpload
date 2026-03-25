@@ -2,14 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"bs-multiupload-desc": "Ofrece a suba de ficheiros en lotes",
 	"bs-upload-multiupload-link-label": "Subir ficheiros",
 	"bs-upload-multiuploaddialogtitle": "Subir ficheiros",
-	"bs-deferred-action-apiupload-description": "Suba de \"$1\" a \"$2\"",
+	"bs-deferred-action-apiupload-description": "Suba de «$1» a «$2»",
 	"bs-uploader-mime-images-label": "Imaxes",
 	"bs-uploader-mime-files-label": "Ficheiros",
-	"bs-multiupload-tag-button-label-default": "Subir o ficheiro"
+	"bs-multiupload-tag-button-label-default": "Subir o ficheiro",
+	"bs-uploader-drop-or-click": "Arrastra e solta o ficheiro aquí ou fai clic para seleccionalo e subilo",
+	"bs-multiupload-tag-dropzone-label-default": "Arrastra e solta un ficheiro aquí para comezar a suba",
+	"bs-multiupload-tag-error-invalid prefix": "O prefixo de nome de ficheiro «$1» non é válido!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoría non válida|Categorías non válidas}}: «$2»",
+	"bs-multiupload-tag-hint-reloadpage": "A páxina recargarase agora"
 }
