@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"bs-multiupload-desc": "Waxay bixisaa soo gelinta faylalka ee dufcad ahaan",
+	"bs-upload-multiupload-link-label": "Soo geli fayl",
+	"bs-upload-multiuploaddialogtitle": "Soo geli faylal",
+	"bs-deferred-action-apiupload-description": "Soo gelinta \"$1\" ee \"$2\"",
+	"bs-uploader-mime-images-label": "Sawirro",
+	"bs-uploader-mime-files-label": "Faylasha",
+	"bs-uploader-drop-or-click": "Halkan ku jiid oo ku rid faylka ama guji si aad u doorato faylka la soo gelinayo",
+	"bs-multiupload-tag-button-label-default": "Soo geli faylka",
+	"bs-multiupload-tag-dropzone-label-default": "Halkan ku jiid oo ku rid fayl si aad u bilowdo soo gelinta",
+	"bs-multiupload-tag-error-invalid prefix": "Horgalaha magaca faylka \"$1\" ma aha mid sax ah!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Qayb|Qaybaha}} aan sax ahayn: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "Bogga hadda dib ayaa loo soo gelin doonaa"
+}
