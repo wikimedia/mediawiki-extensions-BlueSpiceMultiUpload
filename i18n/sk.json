@@ -2,12 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Lexected",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
+	"bs-multiupload-desc": "Poskytuje hromadné nahrávanie súborov",
 	"bs-upload-multiupload-link-label": "Nahrať súbory",
 	"bs-upload-multiuploaddialogtitle": "Nahrať súbory",
+	"bs-deferred-action-apiupload-description": "Nahranie „$1“ ako „$2“",
 	"bs-uploader-mime-images-label": "Obrázky",
 	"bs-uploader-mime-files-label": "Súbory",
-	"bs-multiupload-tag-button-label-default": "Nahrať súbor"
+	"bs-uploader-drop-or-click": "Presuňte sem súbor alebo kliknutím vyberte súbor na nahranie",
+	"bs-multiupload-tag-button-label-default": "Nahrať súbor",
+	"bs-multiupload-tag-dropzone-label-default": "Presuňte sem súbor a spustí sa nahrávanie",
+	"bs-multiupload-tag-error-invalid prefix": "Neplatná predpona názvu súboru „$1“!",
+	"bs-multiupload-tag-error-invalid-categories": "Neplatná {{PLURAL:$1|kategória|kategórie}}: „$2“",
+	"bs-multiupload-tag-hint-reloadpage": "Stránka sa teraz znovu načíta"
 }
